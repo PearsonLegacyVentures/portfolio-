@@ -98,7 +98,7 @@
     "status": "completed",
     "role": "Planned & promoted",
     "summary": "Club 1600's Q1 Social & Family Fun Day, held October 3 at Bernard Hanna, DTM's beach property, brought members together outside the meeting room.",
-    "impact": "Photographs capture members socializing, outdoor hospitality, refreshments and the gathering. Verified attendance figures and final finances can be added later.",
+    "impact": "Photographs show members gathering at the beachfront, socializing, and enjoying the event's hospitality.",
     "highlights": [
       "Developed the Q1 Social concept and promotional campaign",
       "Coordinated the schedule, member communications and preparations",
@@ -112,7 +112,9 @@
       "https://raw.githubusercontent.com/PearsonLegacyVentures/portfolio-/main/assets/portfolio/q1-social-handshake.webp",
       "https://raw.githubusercontent.com/PearsonLegacyVentures/portfolio-/main/assets/portfolio/q1-social-evening.webp",
       "https://raw.githubusercontent.com/PearsonLegacyVentures/portfolio-/main/assets/portfolio/q1-social-grill.webp",
-      "https://raw.githubusercontent.com/PearsonLegacyVentures/portfolio-/main/assets/portfolio/q1-social-bar.webp"
+      "https://raw.githubusercontent.com/PearsonLegacyVentures/portfolio-/main/assets/portfolio/q1-social-bar.webp",
+      "https://raw.githubusercontent.com/PearsonLegacyVentures/portfolio-/main/assets/portfolio/social-beach-conversation.webp",
+      "https://raw.githubusercontent.com/PearsonLegacyVentures/portfolio-/main/assets/portfolio/social-beach-toast.webp"
     ],
     "links": [],
     "credit": "Planned with club members, volunteers and support from Bernard Hanna, DTM. Event outcomes to be confirmed.",
@@ -128,7 +130,9 @@
       "q1-social-handshake.webp": "A moment of fellowship during the Q1 social",
       "q1-social-evening.webp": "Members gathered beneath the covered patio",
       "q1-social-grill.webp": "The grill and meal preparations",
-      "q1-social-bar.webp": "Bar and refreshments"
+      "q1-social-bar.webp": "Bar and refreshments",
+      "social-beach-conversation.webp": "Club members gathering on the beachfront",
+      "social-beach-toast.webp": "Conversations and fellowship beside the sea"
     }
   },
   {
@@ -272,7 +276,7 @@
     "status": "completed",
     "role": "Coordinated & supported",
     "summary": "From preparation to distribution: the 15th Annual Neil Percentie Back2School Jamboree and the team behind it.",
-    "impact": "Club 1600 delivered 200 student packages, prepared 50 teacher packages, and provided 1,500+ additional loose school items at the August 29 event, with an estimated 150+ people in attendance. This was a collective service effort.",
+    "impact": "Event photographs capture supplies, youth activities, barbering, animal encounters and volunteer interactions.",
     "highlights": [
       "Worked on the package preparation crew with Charles Rose and Jonathan Smith",
       "Assisted setup alongside Tyler Collie, Eddie Toote, Jonathan Smith and Dominic Strachan",
@@ -306,7 +310,17 @@
         "value": "$4,076.87"
       }
     ],
-    "images": [],
+    "images": [
+      "https://raw.githubusercontent.com/PearsonLegacyVentures/portfolio-/main/assets/portfolio/neil-emcee.webp",
+      "https://raw.githubusercontent.com/PearsonLegacyVentures/portfolio-/main/assets/portfolio/neil-turtle.webp",
+      "https://raw.githubusercontent.com/PearsonLegacyVentures/portfolio-/main/assets/portfolio/neil-backpacks.webp",
+      "https://raw.githubusercontent.com/PearsonLegacyVentures/portfolio-/main/assets/portfolio/neil-basketball.webp",
+      "https://raw.githubusercontent.com/PearsonLegacyVentures/portfolio-/main/assets/portfolio/neil-elmo.webp",
+      "https://raw.githubusercontent.com/PearsonLegacyVentures/portfolio-/main/assets/portfolio/neil-barber.webp",
+      "https://raw.githubusercontent.com/PearsonLegacyVentures/portfolio-/main/assets/portfolio/neil-petting-birds.webp",
+      "https://raw.githubusercontent.com/PearsonLegacyVentures/portfolio-/main/assets/portfolio/neil-playtime.webp",
+      "https://raw.githubusercontent.com/PearsonLegacyVentures/portfolio-/main/assets/portfolio/neil-volunteer.webp"
+    ],
     "links": [
       {
         "label": "Club 1600 community impact",
@@ -327,7 +341,18 @@
         "label": "Neil Percentie Back2School video montage",
         "url": "https://api-f.streamable.com/api/v1/videos/5b3e87/mp4"
       }
-    ]
+    ],
+    "imageCaptions": {
+      "neil-emcee.webp": "Club volunteers engage young participants",
+      "neil-turtle.webp": "A petting-zoo moment with children",
+      "neil-backpacks.webp": "Backpacks prepared for distribution",
+      "neil-basketball.webp": "Children enjoy the basketball arcade",
+      "neil-elmo.webp": "A youngster greets the mascot",
+      "neil-barber.webp": "On-site barbering for back-to-school preparation",
+      "neil-petting-birds.webp": "Children interacting with animals",
+      "neil-playtime.webp": "Interactive activities at the jamboree",
+      "neil-volunteer.webp": "Engaging young attendees throughout the day"
+    }
   },
   {
     "id": "2026-saa-expense-tracking",
@@ -374,7 +399,9 @@
       "https://raw.githubusercontent.com/PearsonLegacyVentures/portfolio-/main/assets/portfolio/meeting-speaker.webp",
       "https://raw.githubusercontent.com/PearsonLegacyVentures/portfolio-/main/assets/portfolio/meeting-bar-toast.webp",
       "https://raw.githubusercontent.com/PearsonLegacyVentures/club1600.org/main/assets/meeting-room.webp",
-      "https://raw.githubusercontent.com/PearsonLegacyVentures/club1600.org/main/assets/meeting-moments.webp"
+      "https://raw.githubusercontent.com/PearsonLegacyVentures/club1600.org/main/assets/meeting-moments.webp",
+      "https://raw.githubusercontent.com/PearsonLegacyVentures/portfolio-/main/assets/portfolio/bar-toast.webp",
+      "https://raw.githubusercontent.com/PearsonLegacyVentures/portfolio-/main/assets/portfolio/bar-counter.webp"
     ],
     "links": [],
     "credit": "The club's weekly meeting experience is delivered with fellow officers, committee members and volunteers.",
@@ -393,7 +420,9 @@
     "imageCaptions": {
       "meeting-stage-executives.webp": "Club leadership and meeting setup",
       "meeting-speaker.webp": "Speaking during a club meeting",
-      "meeting-bar-toast.webp": "The member bar and hospitality"
+      "meeting-bar-toast.webp": "The member bar and hospitality",
+      "bar-toast.webp": "A toast at the Club 1600 bar",
+      "bar-counter.webp": "Preparing refreshments for attendees"
     }
   },
   {
@@ -438,7 +467,7 @@
     "status": "active",
     "featured": false,
     "summary": "An evolving visual journal of informal meetups, food preparation, shared meals, backgammon and conversation with fellow members.",
-    "impact": "Photographs show member gatherings, food preparation and games. Dates and hosts can be attributed to individual sessions once confirmed.",
+    "impact": "Photo documentation of informal evenings, shared meals, games and member interaction beyond regular meetings.",
     "highlights": [
       "Informal fellowship gatherings",
       "Food and kitchen preparation",
@@ -456,7 +485,13 @@
       "https://raw.githubusercontent.com/PearsonLegacyVentures/portfolio-/main/assets/portfolio/fellowship-cooking.webp",
       "https://raw.githubusercontent.com/PearsonLegacyVentures/portfolio-/main/assets/portfolio/fellowship-oven-prep.webp",
       "https://raw.githubusercontent.com/PearsonLegacyVentures/portfolio-/main/assets/portfolio/fellowship-food-oven.webp",
-      "https://raw.githubusercontent.com/PearsonLegacyVentures/portfolio-/main/assets/portfolio/fellowship-served.webp"
+      "https://raw.githubusercontent.com/PearsonLegacyVentures/portfolio-/main/assets/portfolio/fellowship-served.webp",
+      "https://raw.githubusercontent.com/PearsonLegacyVentures/portfolio-/main/assets/portfolio/trudys-selfie.webp",
+      "https://raw.githubusercontent.com/PearsonLegacyVentures/portfolio-/main/assets/portfolio/trudys-group.webp",
+      "https://raw.githubusercontent.com/PearsonLegacyVentures/portfolio-/main/assets/portfolio/trudys-food.webp",
+      "https://raw.githubusercontent.com/PearsonLegacyVentures/portfolio-/main/assets/portfolio/trudys-conversations.webp",
+      "https://raw.githubusercontent.com/PearsonLegacyVentures/portfolio-/main/assets/portfolio/lab-dinner.webp",
+      "https://raw.githubusercontent.com/PearsonLegacyVentures/portfolio-/main/assets/portfolio/lab-dinner-spread.webp"
     ],
     "videos": [],
     "links": [],
@@ -472,7 +507,13 @@
       "fellowship-cooking.webp": "Preparing a meal together",
       "fellowship-oven-prep.webp": "Checking the food in the oven",
       "fellowship-food-oven.webp": "Shared meal cooking in the oven",
-      "fellowship-served.webp": "Food served for the group"
+      "fellowship-served.webp": "Food served for the group",
+      "trudys-selfie.webp": "Members gathered for an informal evening",
+      "trudys-group.webp": "Club members connecting away from formal meetings",
+      "trudys-food.webp": "Food and fellowship in an informal setting",
+      "trudys-conversations.webp": "Relaxed conversations beyond the meeting room",
+      "lab-dinner.webp": "A shared evening meal",
+      "lab-dinner-spread.webp": "Members gathered around the dining table"
     }
   },
   {
