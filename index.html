@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#102b49">
+  <meta name="description" content="A Year in Motion — a curated record of Amar Pearson's 2026–2027 service and initiatives as Sergeant-at-Arms of First Bahamas Branch Toastmasters Club 1600.">
+  <meta property="og:title" content="A Year in Motion | Club 1600">
+  <meta property="og:description" content="The people, projects and progress behind the scenes of Club 1600.">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Instrument+Serif:ital@0;1&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./app.js" defer></script>
+  <title>A Year in Motion — Club 1600</title>
+</head>
+<body>
+  <div class="topline"><span>FIRST BAHAMAS BRANCH</span><span>2026—2027 SERVICE JOURNAL</span></div>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="Club 1600 — back to top"><strong>CLUB <span>1600</span></strong><small>THE YEAR IN MOTION</small></a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#featured">Highlights</a>
+      <a href="#archive">The archive</a>
+      <a href="#timeline">Timeline</a>
+      <a href="#about">About</a>
+    </nav>
+    <a class="nav-add" href="https://github.com/PearsonLegacyVentures/portfolio-/issues/new?template=portfolio-entry.yml" target="_blank" rel="noopener noreferrer">+ Add entry <span aria-hidden="true">↗</span></a>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="hero-photo" role="img" aria-label="Club 1600 executive team" style="background-image:linear-gradient(90deg,rgba(10,33,58,.98) 0%,rgba(10,33,58,.90) 36%,rgba(10,33,58,.40) 100%),url('https://raw.githubusercontent.com/PearsonLegacyVentures/club1600.org/main/assets/exec-photo.webp')"></div>
+      <div class="hero-content wrap">
+        <p class="eyebrow gold"><span class="small-rule"></span> SERVICE • FELLOWSHIP • IMPACT</p>
+        <h1>A YEAR<br><em>in motion.</em></h1>
+        <p class="hero-intro">A record of the work, ideas and moments that move Club 1600 forward — one initiative at a time.</p>
+        <div class="hero-actions"><a class="button button-gold" href="#archive">Explore the work <span aria-hidden="true">↗</span></a><a class="button button-outline" href="#about">The story behind it</a></div>
+        <div class="hero-byline"><span class="byline-mark">AP</span><span><strong>AMAR PEARSON</strong><small>SERGEANT-AT-ARMS · 2026–2027</small></span></div>
+      </div>
+      <div class="hero-side-note">FIRST BAHAMAS BRANCH OF TOASTMASTERS</div>
+    </section>
+
+    <div class="ticker"><div class="wrap ticker-inner"><span>BEHIND EVERY GREAT MEETING IS WORK YOU DON'T SEE.</span><span class="ticker-star">✳</span><span>THIS IS THE RECORD.</span></div></div>
+
+    <section class="section wrap" id="featured">
+      <div class="section-heading"><div><p class="eyebrow">01 / THE HIGHLIGHTS</p><h2>More than <em>the meeting.</em></h2></div><p class="section-aside">The initiatives, experiences and service that deserve a place in the story.</p></div>
+      <div id="featured-grid" class="featured-grid" aria-live="polite"></div>
+    </section>
+
+    <section class="impact-band">
+      <div class="wrap impact-layout">
+        <div><p class="eyebrow gold">A MOMENT WORTH MEASURING</p><h2>The work<br><em>made visible.</em></h2><p>Verified outcomes from the 15th Annual Neil Percentie Back2School Jamboree — a collective Club 1600 community-service effort.</p></div>
+        <div class="impact-numbers">
+          <div><strong>200</strong><span>Student packages distributed</span></div>
+          <div><strong>150+</strong><span>Estimated event attendees</span></div>
+          <div><strong>1,500+</strong><span>Additional school items</span></div>
+          <div><strong>50</strong><span>Teacher packages prepared</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap" id="archive">
+      <div class="section-heading archive-title"><div><p class="eyebrow">02 / THE WORK</p><h2>The <em>activity archive.</em></h2></div><p class="section-aside">A living record — updated as new contributions, photos and outcomes are documented.</p></div>
+      <div class="archive-toolbar">
+        <label class="search-wrap"><span aria-hidden="true">⌕</span><span class="sr-only">Search activities</span><input id="search" type="search" placeholder="Search initiatives, outcomes, dates…" autocomplete="off"></label>
+        <label class="select-wrap"><span class="sr-only">Filter by reporting quarter</span><select id="quarter"><option value="all">All quarters</option><option value="Q1">Q1 · Jul–Sep</option><option value="Q2">Q2 · Oct–Dec</option><option value="Q3">Q3 · Jan–Mar</option><option value="Q4">Q4 · Apr–Jun</option></select></label>
+        <label class="select-wrap"><span class="sr-only">Filter by status</span><select id="status"><option value="all">All statuses</option><option value="completed">Completed</option><option value="active">In motion</option><option value="planning">On the horizon</option></select></label>
+      </div>
+      <div class="category-bar" id="categories" role="group" aria-label="Filter by type of initiative"></div>
+      <div class="archive-meta"><span id="archive-count">Loading archive…</span><button class="text-button" id="clear-filters" type="button">Clear filters ↗</button></div>
+      <div id="entry-grid" class="entry-grid" aria-live="polite"></div>
+      <div id="empty-state" class="empty-state" hidden><h3>No entries match.</h3><p>Try clearing the filters or searching for another term.</p></div>
+    </section>
+
+    <section class="timeline-section" id="timeline">
+      <div class="wrap timeline-layout"><div><p class="eyebrow gold">03 / THE TIMELINE</p><h2>A year<br><em>in chapters.</em></h2><p>Follow the initiatives from the start of the Toastmasters year.</p></div><div id="timeline-list" class="timeline-list" aria-label="Chronological activity timeline"></div></div>
+    </section>
+
+    <section class="section wrap about" id="about">
+      <div class="about-image"><img src="https://raw.githubusercontent.com/PearsonLegacyVentures/club1600.org/main/assets/amar-cutout.webp" alt="Amar Pearson, Club 1600 Sergeant-at-Arms" loading="lazy"></div>
+      <div class="about-copy"><p class="eyebrow">04 / THE PURPOSE</p><h2>Leadership shows up<br><em>in the details.</em></h2><p>This is a personal record of service during the 2026–2027 Club 1600 term — from welcoming members and improving club operations to coordinating community initiatives and bringing people together beyond weekly meetings.</p><p>Each entry distinguishes work led, coordinated, created or supported. Because meaningful progress rarely happens alone.</p><p class="about-signature">Amar Pearson <span>Sergeant-at-Arms · Club 1600</span></p></div>
+    </section>
+
+    <section class="closing-cta"><div class="wrap cta-layout"><div><p class="eyebrow gold">KEEP THE RECORD MOVING</p><h2>Something happened?<br><em>Put it in the archive.</em></h2><p>New initiative, improvement, event photo or impact number: add it in minutes without touching the website code.</p></div><div class="cta-buttons"><a class="button button-gold" href="https://github.com/PearsonLegacyVentures/portfolio-/issues/new?template=portfolio-entry.yml" target="_blank" rel="noopener noreferrer">Add an activity ↗</a><button class="button button-outline" id="print-page" type="button">Save / print PDF ↗</button></div></div></section>
+  </main>
+  <footer class="site-footer"><div class="wrap footer-inner"><div><strong>CLUB 1600</strong><small>A YEAR IN MOTION · 2026–2027</small></div><p>Documenting the work. Recognizing the people. Preserving the impact.</p><a href="#top">BACK TO TOP ↑</a></div><div class="wrap footer-note">An independently maintained Sergeant-at-Arms portfolio. Statuses and impact details are updated as verified; it is not an official Toastmasters International publication.</div></footer>
+  <dialog id="entry-dialog" class="entry-dialog" aria-labelledby="dialog-title"><button id="dialog-close" class="dialog-close" type="button" aria-label="Close details">×</button><div id="dialog-body"></div></dialog>
+</body>
+</html>
