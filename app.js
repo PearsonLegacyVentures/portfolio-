@@ -2,6 +2,7 @@
 const DATA_URL="./data/entries.json";
 const SOURCE="https://raw.githubusercontent.com/PearsonLegacyVentures/club1600.org/main/assets/";
 const FORM="https://github.com/PearsonLegacyVentures/portfolio-/issues/new?template=portfolio-entry.yml";
+const MEDIA_FORM="https://github.com/PearsonLegacyVentures/portfolio-/issues/new?template=portfolio-media.yml";
 const YEAR_MONTHS=[["2026-07","JUL","2026"],["2026-08","AUG","2026"],["2026-09","SEP","2026"],["2026-10","OCT","2026"],["2026-11","NOV","2026"],["2026-12","DEC","2026"],["2027-01","JAN","2027"],["2027-02","FEB","2027"],["2027-03","MAR","2027"],["2027-04","APR","2027"],["2027-05","MAY","2027"],["2027-06","JUN","2027"]];
 const CHAPTERS=["2026-installation","2026-operations-and-reception","2026-neil-percentie-jamboree","2026-new-member-orientation","2026-in-club-leadership-tour","2026-lab-photo-journal","2026-1600-degreez","2026-opm-meeting-logistics"];
 const BUILDS=["2026-club1600-site","2026-membership-roll-deck","2026-saa-expense-tracking","2026-meeting-attire-standard","2026-d47-conference-trip","2026-saa-initiatives-roadmap"];

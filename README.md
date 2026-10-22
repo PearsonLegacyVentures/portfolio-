@@ -1,84 +1,86 @@
-# A Year in Motion — Club 1600 SAA Portfolio
+# Club 1600 — A Year in Motion
 
-A public, mobile-first editorial portfolio documenting the 2026–2027 Sergeant-at-Arms term for **Amar Pearson**, First Bahamas Branch of Toastmasters Club 1600.
+A visual, chronological SAA portfolio for the First Bahamas Branch of Toastmasters Club 1600, documenting Amar Pearson's 2026–2027 service year.
 
-This is an independent activity archive, **not** an official Toastmasters International website. The repository does not contain the Toastmasters logo.
+**Repository:** https://github.com/PearsonLegacyVentures/portfolio-
 
-## What the site does
+## What is on the site
 
-- Photo-led highlights and an indexed, searchable timeline
-- Filters for category, reporting quarter, and activity status
-- Transparent **Led / Coordinated / Supported / Created** role attribution
-- Detail pages (in-page overlay) with results, credits and evidence links
-- Print-friendly layout to save as PDF
-- Public-facing metrics from verified activity records
-- **No-code updates using a GitHub Issue form** (see below)
+- An editorial front page styled to match the existing `club1600.org` website — Montserrat/Source Sans 3, Toastmasters blue, maroon, white and yellow
+- Eight opening **story chapters**: installation, meeting room, Neil Percentie Back2School, new member orientation, In-Club Leadership Tour, monthly Labs, Q1 social and OPM meeting
+- A clickable **July 2026–June 2027** month-by-month roadmap
+- A growing photo journal of **meeting room setups and atmosphere**
+- The Office of the Prime Minister **before/after room** comparison, with photo slots
+- **Lab photos by month**, populated by new Lab entries
+- A **Build Log** for `club1600.org`, the membership roll-call deck, SAA financial tracker and more
+- A complete searchable archive, with photos, videos, data and acknowledgements in each story
+- A print-friendly layout for saving an initial PDF-style recap
 
-## Add an activity in two minutes
+## The easiest way to update
 
-1. Open [**Add Portfolio Entry**](https://github.com/PearsonLegacyVentures/portfolio-/issues/new?template=portfolio-entry.yml) while signed in to the `PearsonLegacyVentures` account.
-2. Complete the form: date, title, category, role, status, summary, impact, any figures, and photos.
-3. **Submit the issue.** A GitHub Actions workflow converts your entry into the website's data file automatically, and GitHub Pages republishes the site.
-4. To update an existing entry, create another form submission and enter the existing entry ID in the optional **Entry ID to update** field, or edit your original Issue if it was created through this form.
-5. For photos, attach images directly in the form's media field. GitHub creates a Markdown image URL that the portfolio will display. Only upload images you have permission to publish.
+**Already have a story and just want to add media?**
 
-**Access restriction:** the publishing workflow only processes entries created by the repository owner. It does not process submissions from random public visitors.
+Use the [Add photos and videos](https://github.com/PearsonLegacyVentures/portfolio-/issues/new?template=portfolio-media.yml) form. Enter the existing **Entry ID**, then drag in your images or paste links. It will **append** new images rather than deleting existing photographs. You can also provide a video URL or separate **before** and **after** photographs.
 
-If the workflow does not run, check repository **Settings → Actions → General** to enable Actions and allow GitHub Actions read/write permissions. The workflow explicitly requests `contents: write`.
+**Have a new activity, Lab or digital build?**
 
-## Publishing
+Use the [Add a portfolio story](https://github.com/PearsonLegacyVentures/portfolio-/issues/new?template=portfolio-entry.yml) form. Enter a date, category, journal type, status, your role, description, and any photos. Choose **Monthly Lab journal** and the story automatically appears in the correct month's Lab gallery.
 
-The site is plain HTML, CSS, JavaScript and JSON. No npm packages or build are required.
+Both Issue forms are processed by a GitHub Actions workflow and modify `data/entries.json`. Only issues submitted by the repository owner can publish changes.
 
-For **GitHub Pages**: go to **Settings → Pages → Build and deployment → Source: GitHub Actions**. The `Deploy portfolio` workflow is included. After the initial run, the site will be available at:
+**Important:** All content in this public repository and its forms is potentially public. Get consent for photos of members and guests where appropriate, especially membership slides, and never upload private contact information or sensitive club records.
 
-https://pearsonlegacyventures.github.io/portfolio-/
+## Which photo is which?
 
-For Cloudflare Pages, create a Pages project pointing to this repository; set Framework preset to **None**, output directory to `/`, and leave the build command blank.
+- **Installation:** use the actual executive installation ceremony photos.
+- **Room setup:** use arrival, setup, seating plans, food/bar prep and general atmosphere photos.
+- **Neil Percentie:** add package-preparation, distribution, activities, donors and volunteer photos; a verified existing event montage is already linked in the story.
+- **New Members Orientation & In-Club Leadership Tour:** galleries are reserved; dates and detailed outcomes still need confirmation.
+- **Lab journal:** create an entry per Lab session, choose `Monthly Lab journal`, and attach photos.
+- **Q1 Social:** add your photographs and post-event attendance/outcome recap.
+- **OPM:** update `2026-opm-meeting-logistics` using the media form's **before** and **after** fields.
+- **Build Log:** screenshots from `club1600.org`, member roll-call deck, meeting attire, tools, and finished graphics.
 
-## Portfolio data model
+### Entry IDs you can paste into the media form
 
-Portfolio entries live in `data/entries.json` and follow this structure:
+| Chapter | Entry ID |
+| --- | --- |
+| Installation | `2026-installation` |
+| The room | `2026-operations-and-reception` |
+| Neil Percentie | `2026-neil-percentie-jamboree` |
+| Orientation | `2026-new-member-orientation` |
+| Leadership Tour | `2026-in-club-leadership-tour` |
+| Lab overview | `2026-lab-photo-journal` |
+| Q1 Social | `2026-1600-degreez` |
+| OPM transformation | `2026-opm-meeting-logistics` |
+| Club website | `2026-club1600-site` |
+| Membership deck | `2026-membership-roll-deck` |
 
-```json
-{
-  "id": "unique-slug",
-  "date": "2026-08-29",
-  "title": "Event name",
-  "category": "Community Service",
-  "status": "completed",
-  "role": "Coordinated",
-  "summary": "Short description of what happened.",
-  "impact": "Confirmed result, or a note that details are pending.",
-  "highlights": ["One accomplishment", "Another accomplishment"],
-  "metrics": [{"label": "Student packages distributed", "value": "200"}],
-  "images": ["https://example.com/your-event-photo.jpg"],
-  "links": [{"label": "Evidence", "url": "https://..."}],
-  "credit": "Recognize the members and partners involved.",
-  "featured": false
-}
-```
+Other IDs are listed in `data/entries.json` and at the bottom of each story.
 
-Supported statuses: `completed`, `active`, `planning`. Activities under planning/active are intentionally **not** counted as completed events. Example entries distinguish completed deliverables from anticipated outcomes.
+## Running and publishing
 
-## Editorial policy
+The portfolio is **static HTML, CSS, JavaScript and JSON**. No install or build command is required.
 
-This is **Amar's record of his contributions**, not a claim that every Club 1600 initiative was done alone. Every entry should name the actual contribution and acknowledge colleagues where appropriate. Avoid unsupported attendance numbers or descriptions such as "successful" unless confirmed after an event.
+**GitHub Pages:** Enable it at repository **Settings → Pages → Source: GitHub Actions**. The deployment workflow lives in `.github/workflows/deploy.yml`. Once enabled, the site should publish to `https://pearsonlegacyventures.github.io/portfolio-/`.
 
-The initial records are a **working archive** based on prior Club 1600 project documentation. Please check dates, status, photos, and impacts before distributing the final year-end report.
+**Cloudflare Pages:** Import this repository, framework preset **None**, no build command, output `/`.
 
-## Recommended weekly ritual
+It works locally via a simple static file server (`python3 -m http.server 8000`). The site loads `data/entries.json` using `fetch`, so opening `index.html` directly as a `file://` URL will not show the data.
 
-Spend five minutes each Sunday adding any new accomplishments and photos. By year-end, this portfolio will already be up to date. Use the **Save / print PDF** button when you want a report copy.
+## About accuracy
 
-## Maintenance
+The initial entries were drafted from the documented work and this project conversation. The Neil Percentie figures are from the completed event report. Other timelines, counts and outcomes should be confirmed before using the portfolio as a final official record.
 
-- `index.html` — semantic layout
-- `styles.css` — visual design and print rules
-- `app.js` — filtering, detail viewer, metrics, entry rendering
-- `data/entries.json` — source-of-truth entries
-- `.github/ISSUE_TEMPLATE/portfolio-entry.yml` — no-code entry form
-- `.github/workflows/sync-portfolio-entry.yml` + `scripts/sync_issue.py` — publishing new entries
-- `.github/workflows/deploy.yml` — GitHub Pages deployment
+The portfolio distinguishes contributions from group accomplishments and preserves uncertain dates as **To confirm** rather than inventing them. There is no Toastmasters International logo because this is an independent personal service portfolio.
 
-No secrets or personal credentials are necessary.
+## Files
+
+- `index.html` — main layout
+- `styles.css` — visual design
+- `app.js` — calendar, archive, galleries and story display
+- `data/entries.json` — all stories and assets
+- `.github/ISSUE_TEMPLATE/portfolio-entry.yml` — new story form
+- `.github/ISSUE_TEMPLATE/portfolio-media.yml` — quick upload form
+- `scripts/sync_issue.py` — preserves entries and attaches new media
+- `.github/workflows/` — publishing/deployment

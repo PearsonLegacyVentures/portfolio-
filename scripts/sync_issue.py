@@ -124,7 +124,17 @@ def main():
         raise SystemExit("Summary and Confirmed outcome are required.")
     manual_id = values.get("Entry ID to update (optional)", "")
     entry_id = manual_id if re.fullmatch(r"[a-z0-9][a-z0-9-]{1,100}", manual_id) else f"issue-{issue['number']}"
+    prior = next((r for r in json.loads(DEST.read_text(encoding="utf-8")) if r.get("id") == entry_id), {})
+    story_type = values.get("Where should this story appear?", "General record")
+    collection_map = {"Monthly Lab journal": ("Labs", "lab"), "Meeting room and operations": ("Meeting Operations", "operations"), "Digital build log": ("Digital Projects", "build"), "Member development": ("Member Development", "event")}
+    fallback_collection = {"Member Fellowship": "Social & Fellowship", "Community Service": "Community Impact", "Club Operations": "Meeting Operations", "Brand & Digital": "Digital Projects", "Speaking & Training": "Learning & Development", "Strategy & Planning": "Strategy", "Events & Hospitality": "Events"}
+    collection, story_kind = collection_map.get(story_type, (fallback_collection.get(category, "Events"), "event"))
     record = {
+        **prior,
+        "month": day.strftime("%Y-%m"),
+        "dateLabel": "",
+        "collection": collection,
+        "type": story_kind,
         "id": entry_id,
         "date": day.isoformat(),
         "title": title,

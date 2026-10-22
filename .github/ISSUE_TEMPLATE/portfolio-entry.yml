@@ -28,6 +28,19 @@ body:
     validations:
       required: true
   - type: dropdown
+    id: journal-type
+    attributes:
+      label: "Where should this story appear?"
+      description: "Select Lab to show the entry automatically in its month."
+      options:
+        - "General record"
+        - "Monthly Lab journal"
+        - "Meeting room and operations"
+        - "Digital build log"
+        - "Member development"
+    validations:
+      required: true
+  - type: dropdown
     id: status
     attributes:
       label: "Status"
