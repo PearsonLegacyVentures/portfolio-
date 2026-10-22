@@ -1,30 +1,254 @@
 [
   {
-    "id": "2026-term-of-service",
-    "date": "2026-07-08",
-    "title": "A new year of service",
-    "category": "Club Operations",
-    "status": "completed",
-    "role": "Serving",
-    "summary": "Began the 2026–2027 term as Sergeant-at-Arms for the First Bahamas Branch of Toastmasters Club 1600.",
-    "impact": "Term responsibilities include meeting readiness, protocol, hospitality, member experience and support for the club's executive agenda. Ongoing delivery is tracked separately.",
+    "id": "2026-golf-sundays",
+    "date": "2026-10-20",
+    "title": "On a Sunday, We Golf!",
+    "category": "Member Fellowship",
+    "status": "active",
+    "role": "Created & launched",
+    "summary": "Introduced a recurring Sunday opportunity for members to learn golf, practice their swing and connect outside regular meetings.",
+    "impact": "Weekly meetup announced for Sundays, 3–5 PM, at the Blue Hills/Baillou Hills Sports Complex Golf Range. Attendance figures are not yet logged.",
     "highlights": [
-      "Induction and introduction as Sergeant-at-Arms",
-      "Committed to serving both club members and the wider community",
-      "Supported meeting protocol, guest welcome and the operations agenda"
+      "Developed and refined a member-facing golf social flyer",
+      "Set the weekly Sunday 3–5 PM meetup",
+      "Wrote the introductory group invitation",
+      "Made beginner participation central to the message"
+    ],
+    "metrics": [],
+    "images": [],
+    "links": [
+      {
+        "label": "Bahamas Golf Federation location",
+        "url": "https://www.bahamasgolf.org/about-us/contact/"
+      }
+    ],
+    "credit": "Open invitation for Club 1600 members to participate and strengthen fellowship.",
+    "featured": false,
+    "collection": "Social & Fellowship"
+  },
+  {
+    "id": "2026-trudys-weekly",
+    "date": "2026-10-20",
+    "title": "Trudy's Thru Out Da Week",
+    "category": "Member Fellowship",
+    "status": "active",
+    "role": "Created & launched",
+    "summary": "Introduced a laid-back weekly member hangout, prioritizing Monday evenings at Trudy's Bar & Grill.",
+    "impact": "Members were invited to connect every Monday from 8 PM, with flexibility to meet at other times. Attendance and frequency will be updated as sessions take place.",
+    "highlights": [
+      "Developed a separate social flyer with venue photography",
+      "Established Mondays at 8 PM as the primary weekly meet-up",
+      "Promoted informal fellowship without a formal meeting agenda"
+    ],
+    "metrics": [],
+    "images": [],
+    "links": [],
+    "credit": "A casual member-led opportunity to build relationships beyond Thursday meetings.",
+    "featured": false,
+    "collection": "Social & Fellowship"
+  },
+  {
+    "id": "2026-d47-conference-trip",
+    "date": "2026-10-13",
+    "title": "District 47 — Florida bound",
+    "category": "Events & Hospitality",
+    "status": "planning",
+    "role": "Created & promoted",
+    "summary": "A creative flyer campaign promoting Club 1600's planned District 47 conference delegation for spring 2027; dates and participation remain to be confirmed.",
+    "impact": "April 2027 is a working target period, not a confirmed conference date. Final travel, venue and attendee details will be documented later.",
+    "highlights": [
+      "Created initial conference-trip flyer concepts",
+      "Explored a Florida-bound visual identity and member photo treatment",
+      "Encouraged planning for a stronger club delegation"
+    ],
+    "metrics": [],
+    "images": [],
+    "links": [],
+    "credit": "An early Club 1600 interest-building effort; official District 47 conference details pending.",
+    "featured": false,
+    "collection": "Digital Projects",
+    "type": "build"
+  },
+  {
+    "id": "2026-q2-social-planning",
+    "date": "2026-10-12",
+    "title": "Making the next social bigger",
+    "category": "Strategy & Planning",
+    "status": "planning",
+    "role": "Planning",
+    "summary": "Began early outreach for beverage contributions, pricing and possible entertainment elements for the Q2 social.",
+    "impact": "Planning-stage work only. Proposed additions, including a fire dancer, are under exploration rather than confirmed bookings.",
+    "highlights": [
+      "Initial conversations about drink donations",
+      "Exploring discounts and vendor prices",
+      "Researching additional entertainment options, including a fire dancer"
+    ],
+    "metrics": [],
+    "images": [],
+    "links": [],
+    "credit": "Potential features are subject to venue, budget and executive decisions.",
+    "featured": false,
+    "collection": "Social & Fellowship"
+  },
+  {
+    "id": "2026-1600-degreez",
+    "date": "2026-10-03",
+    "title": "1600 Degreez — Q1 Social & Family Fun Day",
+    "category": "Member Fellowship",
+    "status": "active",
+    "role": "Planned & promoted",
+    "summary": "1600 Degreez brought together the plan for a Q1 Social & Family Fun Day at Bernard Hanna, DTM's beach property.",
+    "impact": "The event programme and promotional material were prepared. Add confirmed attendance, photographs and a post-event recap to document what took place.",
+    "highlights": [
+      "Designed and refined a coordinated flyer campaign",
+      "Planned grilled food, family games and music",
+      "Prepared Table Topics, raffle, football lounge, dominoes and backgammon programming",
+      "Coordinated a planned massage station and event supplies checklist",
+      "Rescheduled and communicated the updated date"
+    ],
+    "metrics": [],
+    "images": [],
+    "links": [],
+    "credit": "Planned with club members, volunteers and support from Bernard Hanna, DTM. Event outcomes to be confirmed.",
+    "featured": true,
+    "collection": "Social & Fellowship",
+    "type": "event",
+    "chapterLabel": "Q1 SOCIAL",
+    "dateLabel": "Saturday, October 3, 2026",
+    "videos": []
+  },
+  {
+    "id": "2026-opm-meeting-logistics",
+    "date": "2026-10-01",
+    "title": "A meeting beyond our usual walls",
+    "category": "Events & Hospitality",
+    "status": "completed",
+    "role": "Coordinated",
+    "summary": "Taking a Club 1600 meeting to the Office of the Prime Minister required a new room layout, directions, parking arrangements and reception support.",
+    "impact": "A dedicated before-and-after gallery will show the raw room and its meeting-ready transformation. The actual photos still need to be added.",
+    "highlights": [
+      "Coordinated messaging about the temporary meeting-location change",
+      "Clarified front and back guest entry routes",
+      "Prepared professional attire guidance and visitor directions",
+      "Produced a venue-change notice"
+    ],
+    "metrics": [],
+    "images": [],
+    "links": [],
+    "credit": "Supported the executive and the Social & Reception Committee's meeting logistics.",
+    "featured": false,
+    "collection": "Meeting Operations",
+    "type": "transformation",
+    "chapterLabel": "A DIFFERENT ROOM",
+    "dateLabel": "Thursday, October 1, 2026",
+    "beforeAfter": {
+      "before": "",
+      "after": ""
+    },
+    "videos": []
+  },
+  {
+    "id": "2026-club1600-site",
+    "date": "2026-09-30",
+    "title": "Club1600.org — a digital home",
+    "category": "Brand & Digital",
+    "status": "active",
+    "role": "Initiated & developed",
+    "summary": "A new digital home for Club 1600, with leadership, historical material, events, resources and a better member experience.",
+    "impact": "Website pages and visual assets were created in the Club 1600 repository. This journal will capture screenshots, revisions and eventual outcomes.",
+    "highlights": [
+      "Homepage and leadership features",
+      "Photo gallery and resource sections",
+      "Community Impact content for the Neil Percentie initiative",
+      "Modern styling and mobile-conscious navigation"
     ],
     "metrics": [],
     "images": [
-      "https://raw.githubusercontent.com/PearsonLegacyVentures/club1600.org/main/assets/amar-cutout.webp"
+      "https://raw.githubusercontent.com/PearsonLegacyVentures/club1600.org/main/assets/exec-photo.webp"
     ],
     "links": [
       {
-        "label": "Club 1600 website",
+        "label": "Explore club1600.org",
         "url": "https://club1600.org"
+      },
+      {
+        "label": "Website source",
+        "url": "https://github.com/PearsonLegacyVentures/club1600.org"
       }
     ],
-    "credit": "Service under President Toastmaster Azano Major, alongside the 2026–2027 Executive Team.",
-    "featured": false
+    "credit": "The wider club and executive team provided the people, mission and content represented.",
+    "featured": false,
+    "collection": "Digital Projects",
+    "type": "build",
+    "chapterLabel": "WEB DEVELOPMENT"
+  },
+  {
+    "id": "2026-evaluation-masterclass",
+    "date": "2026-09-24",
+    "title": "Evaluation Contest Masterclass",
+    "category": "Speaking & Training",
+    "status": "completed",
+    "role": "Created",
+    "summary": "Developed and refined a structured evaluation-contest training presentation for Cable Revolutionaries Toastmasters Club.",
+    "impact": "Completed a reorganized teaching deck and aligned speaker notes; delivery results and attendance can be added if confirmed.",
+    "highlights": [
+      "Organized evaluation methods into a natural learning sequence",
+      "Developed a white-background presentation with more dynamic visual hierarchy",
+      "Prepared speaker notes corresponding to the training slides"
+    ],
+    "metrics": [],
+    "images": [
+      "https://raw.githubusercontent.com/PearsonLegacyVentures/club1600.org/main/assets/speaking-in-room.webp"
+    ],
+    "links": [],
+    "credit": "Speaking and education work beyond Club 1600, included as part of the Toastmasters year.",
+    "featured": false,
+    "collection": "Learning & Development"
+  },
+  {
+    "id": "2026-meeting-attire-standard",
+    "date": "2026-09-17",
+    "title": "Setting the standard",
+    "category": "Brand & Digital",
+    "status": "completed",
+    "role": "Created & communicated",
+    "summary": "A visual guide to Club 1600's attire expectations — suit, tie, Toastmasters pin and preferred dress shoes — supported by group reminders.",
+    "impact": "A simple reference for suits, ties, Toastmasters pins and preferred dress shoes, reinforcing the club's professional presentation standards.",
+    "highlights": [
+      "Designed and refined the dress-code graphic",
+      "Prepared a concise WhatsApp reminder for members",
+      "Clarified the preferred meeting look"
+    ],
+    "metrics": [],
+    "images": [],
+    "links": [],
+    "credit": "Created to support established Club 1600 meeting standards.",
+    "featured": false,
+    "collection": "Digital Projects",
+    "type": "build"
+  },
+  {
+    "id": "2026-saa-initiatives-roadmap",
+    "date": "2026-09-04",
+    "title": "The SAA initiatives roadmap",
+    "category": "Strategy & Planning",
+    "status": "active",
+    "role": "Developed",
+    "summary": "A multi-quarter roadmap for better member experience, fellowship, public-facing materials and meeting presentation standards.",
+    "impact": "A working roadmap for Q1–Q4; future concepts are not counted as completed initiatives until delivered.",
+    "highlights": [
+      "Social and fellowship programming",
+      "Guest chair-cover and step-and-repeat presentation improvements",
+      "Member-facing website and engagement tools",
+      "Future community and networking concepts"
+    ],
+    "metrics": [],
+    "images": [],
+    "links": [],
+    "credit": "Ideas are subject to executive approval, feasibility and available support.",
+    "featured": false,
+    "collection": "Digital Projects",
+    "type": "build"
   },
   {
     "id": "2026-neil-percentie-jamboree",
@@ -33,8 +257,8 @@
     "category": "Community Service",
     "status": "completed",
     "role": "Coordinated & supported",
-    "summary": "Helped prepare and deliver Club 1600's annual back-to-school community initiative at Union Village Park.",
-    "impact": "The club distributed 200 student packages, prepared 50 teacher packages, provided 1,500+ additional loose school items and engaged an estimated 150+ attendees. School-supply, grooming, dental and family activities supported the wider community.",
+    "summary": "From preparation to distribution: the 15th Annual Neil Percentie Back2School Jamboree and the team behind it.",
+    "impact": "Club 1600 delivered 200 student packages, prepared 50 teacher packages, and provided 1,500+ additional loose school items at the August 29 event, with an estimated 150+ people in attendance. This was a collective service effort.",
     "highlights": [
       "Worked on the package preparation crew with Charles Rose and Jonathan Smith",
       "Assisted setup alongside Tyler Collie, Eddie Toote, Jonathan Smith and Dominic Strachan",
@@ -71,44 +295,34 @@
     "images": [],
     "links": [
       {
-        "label": "Community impact page",
+        "label": "Club 1600 community impact",
         "url": "https://club1600.org/impact.html"
+      },
+      {
+        "label": "Watch the event montage",
+        "url": "https://streamable.com/5b3e87"
       }
     ],
     "credit": "A collective Club 1600 effort with members, Quintin Percentie, Percy's Island Game ($5,000 donation), community partners and volunteers.",
-    "featured": true
-  },
-  {
-    "id": "2026-operations-and-reception",
-    "date": "2026-08-06",
-    "title": "The work before the gavel",
-    "category": "Club Operations",
-    "status": "active",
-    "role": "Coordinated",
-    "summary": "Meeting-room preparation, welcoming guests and conducting Sergeant-at-Arms ceremonial duties across weekly meetings.",
-    "impact": "Meeting-opening responsibilities are documented in multiple August and September club minutes. An end-of-year count of meetings and guests is still to be added.",
-    "highlights": [
-      "Meeting readiness and front-of-room protocol",
-      "Calling regular meetings to order",
-      "Coordination with the Social & Reception Committee",
-      "Attention to guest experience and room standards"
-    ],
-    "metrics": [],
-    "images": [
-      "https://raw.githubusercontent.com/PearsonLegacyVentures/club1600.org/main/assets/meeting-room.webp"
-    ],
-    "links": [],
-    "credit": "The club's weekly meeting experience is delivered with fellow officers, committee members and volunteers.",
-    "featured": false
+    "featured": true,
+    "collection": "Community Impact",
+    "type": "event",
+    "chapterLabel": "COMMUNITY SERVICE",
+    "videos": [
+      {
+        "label": "Neil Percentie Back2School video montage",
+        "url": "https://api-f.streamable.com/api/v1/videos/5b3e87/mp4"
+      }
+    ]
   },
   {
     "id": "2026-saa-expense-tracking",
     "date": "2026-08-11",
-    "title": "Tracking the cost of service",
+    "title": "SAA Expense & Receivables Tracker",
     "category": "Club Operations",
     "status": "active",
     "role": "Organized",
-    "summary": "Consolidated SAA receipts, categorized spending and developed an approach for tracking reimbursables and receivables.",
+    "summary": "A tracking system for receipts, categorized SAA purchases and reimbursements, designed to simplify documentation and handovers.",
     "impact": "The ongoing register supports cleaner reconciliation and future handovers. Final period totals should be verified from the finance tracker before publication.",
     "highlights": [
       "Categorized submitted receipts",
@@ -119,230 +333,197 @@
     "images": [],
     "links": [],
     "credit": "Financial figures are managed with the club's wider accountability and reporting process.",
-    "featured": false
+    "featured": false,
+    "collection": "Digital Projects",
+    "type": "build",
+    "videos": []
   },
   {
-    "id": "2026-saa-initiatives-roadmap",
-    "date": "2026-09-04",
-    "title": "The SAA initiatives roadmap",
-    "category": "Strategy & Planning",
+    "id": "2026-operations-and-reception",
+    "date": "2026-08-06",
+    "title": "The room before the gavel",
+    "category": "Club Operations",
     "status": "active",
-    "role": "Developed",
-    "summary": "Mapped a multi-quarter pipeline spanning member experience, social events, club presentation standards and infrastructure.",
-    "impact": "A working roadmap for Q1–Q4; future concepts are not counted as completed initiatives until delivered.",
-    "highlights": [
-      "Social and fellowship programming",
-      "Guest chair-cover and step-and-repeat presentation improvements",
-      "Member-facing website and engagement tools",
-      "Future community and networking concepts"
-    ],
-    "metrics": [],
-    "images": [],
-    "links": [],
-    "credit": "Ideas are subject to executive approval, feasibility and available support.",
-    "featured": false
-  },
-  {
-    "id": "2026-meeting-attire-standard",
-    "date": "2026-09-17",
-    "title": "Setting the standard",
-    "category": "Brand & Digital",
-    "status": "completed",
-    "role": "Created & communicated",
-    "summary": "Produced member-facing visual guidance on Club 1600's expected meeting attire.",
-    "impact": "A simple reference for suits, ties, Toastmasters pins and preferred dress shoes, reinforcing the club's professional presentation standards.",
-    "highlights": [
-      "Designed and refined the dress-code graphic",
-      "Prepared a concise WhatsApp reminder for members",
-      "Clarified the preferred meeting look"
-    ],
-    "metrics": [],
-    "images": [],
-    "links": [],
-    "credit": "Created to support established Club 1600 meeting standards.",
-    "featured": false
-  },
-  {
-    "id": "2026-evaluation-masterclass",
-    "date": "2026-09-24",
-    "title": "Evaluation Contest Masterclass",
-    "category": "Speaking & Training",
-    "status": "completed",
-    "role": "Created",
-    "summary": "Developed and refined a structured evaluation-contest training presentation for Cable Revolutionaries Toastmasters Club.",
-    "impact": "Completed a reorganized teaching deck and aligned speaker notes; delivery results and attendance can be added if confirmed.",
-    "highlights": [
-      "Organized evaluation methods into a natural learning sequence",
-      "Developed a white-background presentation with more dynamic visual hierarchy",
-      "Prepared speaker notes corresponding to the training slides"
-    ],
-    "metrics": [],
-    "images": [
-      "https://raw.githubusercontent.com/PearsonLegacyVentures/club1600.org/main/assets/speaking-in-room.webp"
-    ],
-    "links": [],
-    "credit": "Speaking and education work beyond Club 1600, included as part of the Toastmasters year.",
-    "featured": false
-  },
-  {
-    "id": "2026-club1600-site",
-    "date": "2026-09-30",
-    "title": "Club 1600's digital home",
-    "category": "Brand & Digital",
-    "status": "active",
-    "role": "Initiated & developed",
-    "summary": "Worked on a modern web presence for Club 1600, including leadership, resources, gallery and community-impact content.",
-    "impact": "Web pages and assets have been developed in the club1600.org GitHub repository. Public deployment and remaining media tasks should be checked before final impact claims.",
-    "highlights": [
-      "Homepage and leadership features",
-      "Photo gallery and resource sections",
-      "Community Impact content for the Neil Percentie initiative",
-      "Modern styling and mobile-conscious navigation"
-    ],
-    "metrics": [],
-    "images": [
-      "https://raw.githubusercontent.com/PearsonLegacyVentures/club1600.org/main/assets/exec-photo.webp"
-    ],
-    "links": [
-      {
-        "label": "Club website",
-        "url": "https://club1600.org"
-      },
-      {
-        "label": "Source repository",
-        "url": "https://github.com/PearsonLegacyVentures/club1600.org"
-      }
-    ],
-    "credit": "The wider club and executive team provided the people, mission and content represented.",
-    "featured": false
-  },
-  {
-    "id": "2026-opm-meeting-logistics",
-    "date": "2026-10-01",
-    "title": "A meeting beyond our usual walls",
-    "category": "Events & Hospitality",
-    "status": "completed",
     "role": "Coordinated",
-    "summary": "Prepared member-facing logistics and signage for a Club 1600 meeting hosted at the Office of the Prime Minister.",
-    "impact": "Provided guest parking guidance, entrance support directions, third-floor room instructions and a notice for the usual Red Cross meeting location.",
+    "summary": "The setup and atmosphere behind regular Club 1600 meetings — seating, room layout, bar, food, guest reception and meeting readiness.",
+    "impact": "A growing photo record of setups and Thursday-night atmosphere. Individual setup dates and any before-and-after transformations can be added alongside photos.",
     "highlights": [
-      "Coordinated messaging about the temporary meeting-location change",
-      "Clarified front and back guest entry routes",
-      "Prepared professional attire guidance and visitor directions",
-      "Produced a venue-change notice"
+      "Photograph the room before guests arrive",
+      "Show different table plans and seating configurations",
+      "Record bar and hospitality setup",
+      "Include wide shots of the meeting atmosphere and people in the room"
     ],
     "metrics": [],
-    "images": [],
+    "images": [
+      "https://raw.githubusercontent.com/PearsonLegacyVentures/club1600.org/main/assets/meeting-room.webp",
+      "https://raw.githubusercontent.com/PearsonLegacyVentures/club1600.org/main/assets/meeting-moments.webp"
+    ],
     "links": [],
-    "credit": "Supported the executive and the Social & Reception Committee's meeting logistics.",
-    "featured": false
+    "credit": "The club's weekly meeting experience is delivered with fellow officers, committee members and volunteers.",
+    "featured": false,
+    "collection": "Meeting Operations",
+    "type": "operations",
+    "month": "2026-07",
+    "dateLabel": "Weekly meetings · July onward",
+    "chapterLabel": "WEEKLY OPERATIONS",
+    "videos": []
   },
   {
-    "id": "2026-1600-degreez",
-    "date": "2026-10-03",
-    "title": "1600 Degreez — Q1 Social & Family Fun Day",
-    "category": "Member Fellowship",
-    "status": "active",
-    "role": "Planned & promoted",
-    "summary": "Developed the event concept, invitations and detailed run of show for the Q1 member-and-family gathering at Bernard Hanna, DTM's beach property.",
-    "impact": "Event date was October 3. Final attendance, photo record and event outcomes are awaiting a post-event recap; these are not yet included as verified results.",
+    "id": "2026-term-of-service",
+    "date": "2026-07-08",
+    "title": "A new year of service",
+    "category": "Club Operations",
+    "status": "completed",
+    "role": "Serving",
+    "summary": "Began the 2026–2027 term as Sergeant-at-Arms for the First Bahamas Branch of Toastmasters Club 1600.",
+    "impact": "Term responsibilities include meeting readiness, protocol, hospitality, member experience and support for the club's executive agenda. Ongoing delivery is tracked separately.",
     "highlights": [
-      "Designed and refined a coordinated flyer campaign",
-      "Planned grilled food, family games and music",
-      "Prepared Table Topics, raffle, football lounge, dominoes and backgammon programming",
-      "Coordinated a planned massage station and event supplies checklist",
-      "Rescheduled and communicated the updated date"
+      "Induction and introduction as Sergeant-at-Arms",
+      "Committed to serving both club members and the wider community",
+      "Supported meeting protocol, guest welcome and the operations agenda"
     ],
     "metrics": [],
-    "images": [],
-    "links": [],
-    "credit": "Planned with club members, volunteers and support from Bernard Hanna, DTM. Event outcomes to be confirmed.",
-    "featured": true
-  },
-  {
-    "id": "2026-q2-social-planning",
-    "date": "2026-10-12",
-    "title": "Making the next social bigger",
-    "category": "Strategy & Planning",
-    "status": "planning",
-    "role": "Planning",
-    "summary": "Began early outreach for beverage contributions, pricing and possible entertainment elements for the Q2 social.",
-    "impact": "Planning-stage work only. Proposed additions, including a fire dancer, are under exploration rather than confirmed bookings.",
-    "highlights": [
-      "Initial conversations about drink donations",
-      "Exploring discounts and vendor prices",
-      "Researching additional entertainment options, including a fire dancer"
+    "images": [
+      "https://raw.githubusercontent.com/PearsonLegacyVentures/club1600.org/main/assets/amar-cutout.webp"
     ],
-    "metrics": [],
-    "images": [],
-    "links": [],
-    "credit": "Potential features are subject to venue, budget and executive decisions.",
-    "featured": false
-  },
-  {
-    "id": "2026-d47-conference-trip",
-    "date": "2026-10-13",
-    "title": "District 47 — Florida bound",
-    "category": "Events & Hospitality",
-    "status": "planning",
-    "role": "Created & promoted",
-    "summary": "Developed a visual campaign to build interest in a potential Club 1600 delegation to the District 47 conference in spring 2027.",
-    "impact": "April 2027 is a working target period, not a confirmed conference date. Final travel, venue and attendee details will be documented later.",
-    "highlights": [
-      "Created initial conference-trip flyer concepts",
-      "Explored a Florida-bound visual identity and member photo treatment",
-      "Encouraged planning for a stronger club delegation"
-    ],
-    "metrics": [],
-    "images": [],
-    "links": [],
-    "credit": "An early Club 1600 interest-building effort; official District 47 conference details pending.",
-    "featured": false
-  },
-  {
-    "id": "2026-golf-sundays",
-    "date": "2026-10-20",
-    "title": "On a Sunday, We Golf!",
-    "category": "Member Fellowship",
-    "status": "active",
-    "role": "Created & launched",
-    "summary": "Introduced a recurring Sunday opportunity for members to learn golf, practice their swing and connect outside regular meetings.",
-    "impact": "Weekly meetup announced for Sundays, 3–5 PM, at the Blue Hills/Baillou Hills Sports Complex Golf Range. Attendance figures are not yet logged.",
-    "highlights": [
-      "Developed and refined a member-facing golf social flyer",
-      "Set the weekly Sunday 3–5 PM meetup",
-      "Wrote the introductory group invitation",
-      "Made beginner participation central to the message"
-    ],
-    "metrics": [],
-    "images": [],
     "links": [
       {
-        "label": "Bahamas Golf Federation location",
-        "url": "https://www.bahamasgolf.org/about-us/contact/"
+        "label": "Club 1600 website",
+        "url": "https://club1600.org"
       }
     ],
-    "credit": "Open invitation for Club 1600 members to participate and strengthen fellowship.",
-    "featured": false
+    "credit": "Service under President Toastmaster Azano Major, alongside the 2026–2027 Executive Team.",
+    "featured": false,
+    "collection": "Milestones"
   },
   {
-    "id": "2026-trudys-weekly",
-    "date": "2026-10-20",
-    "title": "Trudy's Thru Out Da Week",
-    "category": "Member Fellowship",
-    "status": "active",
-    "role": "Created & launched",
-    "summary": "Introduced a laid-back weekly member hangout, prioritizing Monday evenings at Trudy's Bar & Grill.",
-    "impact": "Members were invited to connect every Monday from 8 PM, with flexibility to meet at other times. Attendance and frequency will be updated as sessions take place.",
+    "id": "2026-in-club-leadership-tour",
+    "date": "",
+    "month": "undated",
+    "dateLabel": "Date to add",
+    "collection": "Member Development",
+    "type": "event",
+    "chapterLabel": "CLUB LEADERSHIP",
+    "title": "In-Club Leadership Tour",
+    "summary": "A chapter reserved for the In-Club Leadership Tour — people, sessions and the lessons captured along the way.",
+    "impact": "Exact date, format, participating members and photographs are to be supplied before final claims are added.",
+    "role": "Supported",
+    "status": "completed",
+    "featured": false,
     "highlights": [
-      "Developed a separate social flyer with venue photography",
-      "Established Mondays at 8 PM as the primary weekly meet-up",
-      "Promoted informal fellowship without a formal meeting agenda"
+      "Photo record from the event",
+      "Leadership-development experience",
+      "Member and guest acknowledgements"
     ],
     "metrics": [],
     "images": [],
+    "videos": [],
     "links": [],
-    "credit": "A casual member-led opportunity to build relationships beyond Thursday meetings.",
-    "featured": false
+    "credit": "Credit event leadership and contributors when details are available",
+    "placeholderWord": "LEAD"
+  },
+  {
+    "id": "2026-installation",
+    "date": "",
+    "dateLabel": "Opening of the term · exact date to add",
+    "month": "2026-07",
+    "collection": "Milestones",
+    "type": "event",
+    "chapterLabel": "THE BEGINNING",
+    "title": "Installation & a new chapter",
+    "summary": "The 2026–2027 leadership installation — the point where this year's service story begins.",
+    "impact": "Add the actual installation date, event photographs, induction moments and any acknowledgements before publishing the final recap.",
+    "role": "Inducted as SAA",
+    "status": "completed",
+    "featured": true,
+    "highlights": [
+      "Executive installation and induction",
+      "Recognize the president, officers and members who supported the occasion",
+      "Add installation photos and candid moments"
+    ],
+    "metrics": [],
+    "images": [],
+    "videos": [],
+    "links": [],
+    "credit": "Club 1600 executive team and members",
+    "placeholderWord": "JULY"
+  },
+  {
+    "id": "2026-membership-roll-deck",
+    "date": "",
+    "month": "undated",
+    "dateLabel": "Build date to add",
+    "collection": "Digital Projects",
+    "type": "build",
+    "chapterLabel": "MEMBER EXPERIENCE",
+    "title": "Membership Roll-Call Deck",
+    "summary": "A member-facing deck project bringing Club 1600's people and membership experience into a more polished visual presentation.",
+    "impact": "Screenshots, verified project status and details of how the deck is used will be added. Personal photographs should be published only with appropriate permission.",
+    "role": "Developed",
+    "status": "active",
+    "featured": false,
+    "highlights": [
+      "Develop a consistent member presentation format",
+      "Document design/screenshots",
+      "Record any rollout or meeting use"
+    ],
+    "metrics": [],
+    "images": [],
+    "videos": [],
+    "links": [],
+    "credit": "The membership represented in the deck",
+    "placeholderWord": "1600"
+  },
+  {
+    "id": "2026-new-member-orientation",
+    "date": "",
+    "month": "undated",
+    "dateLabel": "Date to add",
+    "collection": "Member Development",
+    "type": "event",
+    "chapterLabel": "MEMBERSHIP",
+    "title": "New Members Orientation",
+    "summary": "A dedicated welcome and orientation experience for the next generation of Club 1600 members.",
+    "impact": "Photos, final event date, agenda, participants and what was delivered will be added from the event records.",
+    "role": "Supported",
+    "status": "completed",
+    "featured": false,
+    "highlights": [
+      "Welcome and first impression",
+      "Meeting culture, club expectations and belonging",
+      "Add orientation group photographs"
+    ],
+    "metrics": [],
+    "images": [],
+    "videos": [],
+    "links": [],
+    "credit": "A team-delivered member experience; list organizers and facilitators when confirmed",
+    "placeholderWord": "WELCOME"
+  },
+  {
+    "id": "2026-lab-photo-journal",
+    "date": "",
+    "month": "undated",
+    "dateLabel": "Across the term",
+    "collection": "Labs",
+    "type": "overview",
+    "chapterLabel": "THE LAB DIARIES",
+    "title": "The monthly Lab Journal",
+    "summary": "A visual journal for speech labs, learning moments and the members putting their skills into practice.",
+    "impact": "A monthly structure is prepared. Each lab receives its own record once dates, topics and photographs are supplied.",
+    "role": "Documented",
+    "status": "active",
+    "featured": false,
+    "highlights": [
+      "Record the date, topic and speaker/facilitator",
+      "Add a gallery of members and activities for each month",
+      "Capture one takeaway from each lab"
+    ],
+    "metrics": [],
+    "images": [],
+    "videos": [],
+    "links": [],
+    "credit": "Dedicated to all facilitators and participating members",
+    "placeholderWord": "LAB"
   }
 ]
