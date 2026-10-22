@@ -1,0 +1,121 @@
+name: "Add a portfolio entry"
+description: "Add a project, event, photo recap or result. Your entry is published automatically to the portfolio."
+title: "[Portfolio] "
+body:
+  - type: markdown
+    attributes:
+      value: "Use confirmed facts. Distinguish work you led from work you supported. Upload only media you can publish."
+  - type: input
+    id: activity-date
+    attributes:
+      label: "Activity date"
+      description: "Use YYYY-MM-DD, such as 2026-10-20."
+      placeholder: "2026-10-20"
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: "Category"
+      options:
+        - "Community Service"
+        - "Member Fellowship"
+        - "Club Operations"
+        - "Events & Hospitality"
+        - "Brand & Digital"
+        - "Speaking & Training"
+        - "Strategy & Planning"
+    validations:
+      required: true
+  - type: dropdown
+    id: status
+    attributes:
+      label: "Status"
+      description: "Completed = verified deliverable; In motion = ongoing; On the horizon = planned."
+      options:
+        - "Completed"
+        - "In motion"
+        - "On the horizon"
+    validations:
+      required: true
+  - type: dropdown
+    id: contribution
+    attributes:
+      label: "My contribution"
+      options:
+        - "Led"
+        - "Coordinated"
+        - "Created"
+        - "Supported"
+        - "Participated"
+        - "Planned"
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: "Summary"
+      description: "One or two sentences. What did you do?"
+      placeholder: "I organized…"
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: "Confirmed outcome"
+      description: "Only report what happened. For future activities, say the result is pending."
+      placeholder: "What changed? What was delivered? What still needs confirmation?"
+    validations:
+      required: true
+  - type: textarea
+    id: highlights
+    attributes:
+      label: "Highlights (one per line)"
+      placeholder: "Prepared the venue\nDesigned the flyer\nCoordinated members"
+    validations:
+      required: false
+  - type: textarea
+    id: metrics
+    attributes:
+      label: "Metrics (one per line: label | value)"
+      placeholder: "Attendees | 75\nPackages distributed | 200"
+    validations:
+      required: false
+  - type: textarea
+    id: photos
+    attributes:
+      label: "Photos (paste links or drag images here)"
+      description: "One public image URL per line, or drag and drop images into this field. First image becomes the cover."
+      placeholder: "Drag photos here or paste https://…"
+    validations:
+      required: false
+  - type: textarea
+    id: evidence
+    attributes:
+      label: "Evidence links (label | URL)"
+      placeholder: "Flyer | https://example.com/photo.png"
+    validations:
+      required: false
+  - type: textarea
+    id: collaborators
+    attributes:
+      label: "Recognition / collaborators"
+      description: "Who else made it happen?"
+    validations:
+      required: false
+  - type: dropdown
+    id: featured
+    attributes:
+      label: "Featured story?"
+      options:
+        - "No"
+        - "Yes"
+    validations:
+      required: true
+  - type: input
+    id: existing-id
+    attributes:
+      label: "Entry ID to update (optional)"
+      description: "Leave blank for a new entry. To replace an existing seeded story, enter its ID from data/entries.json."
+    validations:
+      required: false
