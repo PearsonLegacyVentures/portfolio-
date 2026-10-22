@@ -95,19 +95,25 @@
     "date": "2026-10-03",
     "title": "1600 Degreez — Q1 Social & Family Fun Day",
     "category": "Member Fellowship",
-    "status": "active",
+    "status": "completed",
     "role": "Planned & promoted",
-    "summary": "1600 Degreez brought together the plan for a Q1 Social & Family Fun Day at Bernard Hanna, DTM's beach property.",
-    "impact": "The event programme and promotional material were prepared. Add confirmed attendance, photographs and a post-event recap to document what took place.",
+    "summary": "Club 1600's Q1 Social & Family Fun Day, held October 3 at Bernard Hanna, DTM's beach property, brought members together outside the meeting room.",
+    "impact": "Photographs capture members socializing, outdoor hospitality, refreshments and the gathering. Verified attendance figures and final finances can be added later.",
     "highlights": [
-      "Designed and refined a coordinated flyer campaign",
-      "Planned grilled food, family games and music",
-      "Prepared Table Topics, raffle, football lounge, dominoes and backgammon programming",
-      "Coordinated a planned massage station and event supplies checklist",
-      "Rescheduled and communicated the updated date"
+      "Developed the Q1 Social concept and promotional campaign",
+      "Coordinated the schedule, member communications and preparations",
+      "Provided for music, games, food, drinks and fellowship",
+      "Preserved a photo record of the gathering"
     ],
     "metrics": [],
-    "images": [],
+    "images": [
+      "https://raw.githubusercontent.com/PearsonLegacyVentures/portfolio-/main/assets/portfolio/q1-social-members.webp",
+      "https://raw.githubusercontent.com/PearsonLegacyVentures/portfolio-/main/assets/portfolio/q1-social-tent.webp",
+      "https://raw.githubusercontent.com/PearsonLegacyVentures/portfolio-/main/assets/portfolio/q1-social-handshake.webp",
+      "https://raw.githubusercontent.com/PearsonLegacyVentures/portfolio-/main/assets/portfolio/q1-social-evening.webp",
+      "https://raw.githubusercontent.com/PearsonLegacyVentures/portfolio-/main/assets/portfolio/q1-social-grill.webp",
+      "https://raw.githubusercontent.com/PearsonLegacyVentures/portfolio-/main/assets/portfolio/q1-social-bar.webp"
+    ],
     "links": [],
     "credit": "Planned with club members, volunteers and support from Bernard Hanna, DTM. Event outcomes to be confirmed.",
     "featured": true,
@@ -115,7 +121,15 @@
     "type": "event",
     "chapterLabel": "Q1 SOCIAL",
     "dateLabel": "Saturday, October 3, 2026",
-    "videos": []
+    "videos": [],
+    "imageCaptions": {
+      "q1-social-members.webp": "Group photograph at the Q1 Social",
+      "q1-social-tent.webp": "Conversation beneath the event tent",
+      "q1-social-handshake.webp": "A moment of fellowship during the Q1 social",
+      "q1-social-evening.webp": "Members gathered beneath the covered patio",
+      "q1-social-grill.webp": "The grill and meal preparations",
+      "q1-social-bar.webp": "Bar and refreshments"
+    }
   },
   {
     "id": "2026-opm-meeting-logistics",
@@ -345,16 +359,20 @@
     "category": "Club Operations",
     "status": "active",
     "role": "Coordinated",
-    "summary": "The setup and atmosphere behind regular Club 1600 meetings — seating, room layout, bar, food, guest reception and meeting readiness.",
-    "impact": "A growing photo record of setups and Thursday-night atmosphere. Individual setup dates and any before-and-after transformations can be added alongside photos.",
+    "summary": "The recurring work behind Thursday nights: room setup, presentation, welcoming members, hospitality, bar service and the atmosphere around the meeting.",
+    "impact": "The photo journal now contains actual meeting photography and a short hospitality video. Additional table layouts and setup transformations can be recorded as the year continues.",
     "highlights": [
-      "Photograph the room before guests arrive",
-      "Show different table plans and seating configurations",
-      "Record bar and hospitality setup",
-      "Include wide shots of the meeting atmosphere and people in the room"
+      "Prepare the meeting room and stage",
+      "Support guest reception and meeting protocol",
+      "Document the hospitality programme and bar",
+      "Capture the meeting atmosphere",
+      "Dirty Diana cocktail demonstration"
     ],
     "metrics": [],
     "images": [
+      "https://raw.githubusercontent.com/PearsonLegacyVentures/portfolio-/main/assets/portfolio/meeting-stage-executives.webp",
+      "https://raw.githubusercontent.com/PearsonLegacyVentures/portfolio-/main/assets/portfolio/meeting-speaker.webp",
+      "https://raw.githubusercontent.com/PearsonLegacyVentures/portfolio-/main/assets/portfolio/meeting-bar-toast.webp",
       "https://raw.githubusercontent.com/PearsonLegacyVentures/club1600.org/main/assets/meeting-room.webp",
       "https://raw.githubusercontent.com/PearsonLegacyVentures/club1600.org/main/assets/meeting-moments.webp"
     ],
@@ -366,7 +384,17 @@
     "month": "2026-07",
     "dateLabel": "Weekly meetings · July onward",
     "chapterLabel": "WEEKLY OPERATIONS",
-    "videos": []
+    "videos": [
+      {
+        "url": "https://raw.githubusercontent.com/PearsonLegacyVentures/portfolio-/main/assets/portfolio/dirty-diana-cocktail-web.mp4",
+        "label": "Behind the bar: Making the Dirty Diana cocktail"
+      }
+    ],
+    "imageCaptions": {
+      "meeting-stage-executives.webp": "Club leadership and meeting setup",
+      "meeting-speaker.webp": "Speaking during a club meeting",
+      "meeting-bar-toast.webp": "The member bar and hospitality"
+    }
   },
   {
     "id": "2026-term-of-service",
@@ -395,6 +423,57 @@
     "credit": "Service under President Toastmaster Azano Major, alongside the 2026–2027 Executive Team.",
     "featured": false,
     "collection": "Milestones"
+  },
+  {
+    "id": "2026-member-fellowship",
+    "date": "",
+    "month": "undated",
+    "dateLabel": "Across the year · dates to add",
+    "category": "Member Fellowship",
+    "collection": "Social & Fellowship",
+    "type": "event",
+    "chapterLabel": "THE SOCIAL SIDE",
+    "title": "Beyond Thursdays — Food, Games & Fellowship",
+    "role": "Participated & supported",
+    "status": "active",
+    "featured": false,
+    "summary": "An evolving visual journal of informal meetups, food preparation, shared meals, backgammon and conversation with fellow members.",
+    "impact": "Photographs show member gatherings, food preparation and games. Dates and hosts can be attributed to individual sessions once confirmed.",
+    "highlights": [
+      "Informal fellowship gatherings",
+      "Food and kitchen preparation",
+      "Backgammon and social activities",
+      "Group photography and shared conversations"
+    ],
+    "metrics": [],
+    "images": [
+      "https://raw.githubusercontent.com/PearsonLegacyVentures/portfolio-/main/assets/portfolio/fellowship-group-photo.webp",
+      "https://raw.githubusercontent.com/PearsonLegacyVentures/portfolio-/main/assets/portfolio/fellowship-group-casual.webp",
+      "https://raw.githubusercontent.com/PearsonLegacyVentures/portfolio-/main/assets/portfolio/fellowship-living-room.webp",
+      "https://raw.githubusercontent.com/PearsonLegacyVentures/portfolio-/main/assets/portfolio/fellowship-backgammon.webp",
+      "https://raw.githubusercontent.com/PearsonLegacyVentures/portfolio-/main/assets/portfolio/fellowship-kitchen-prep.webp",
+      "https://raw.githubusercontent.com/PearsonLegacyVentures/portfolio-/main/assets/portfolio/fellowship-food-seasoning.webp",
+      "https://raw.githubusercontent.com/PearsonLegacyVentures/portfolio-/main/assets/portfolio/fellowship-cooking.webp",
+      "https://raw.githubusercontent.com/PearsonLegacyVentures/portfolio-/main/assets/portfolio/fellowship-oven-prep.webp",
+      "https://raw.githubusercontent.com/PearsonLegacyVentures/portfolio-/main/assets/portfolio/fellowship-food-oven.webp",
+      "https://raw.githubusercontent.com/PearsonLegacyVentures/portfolio-/main/assets/portfolio/fellowship-served.webp"
+    ],
+    "videos": [],
+    "links": [],
+    "credit": "Members who hosted, prepared food and made these informal gatherings possible",
+    "placeholderWord": "SOCIAL",
+    "imageCaptions": {
+      "fellowship-group-photo.webp": "Group photo from an informal club gathering",
+      "fellowship-group-casual.webp": "A casual gathering of members",
+      "fellowship-living-room.webp": "Relaxed conversations at a gathering",
+      "fellowship-backgammon.webp": "Backgammon and conversation",
+      "fellowship-kitchen-prep.webp": "Food preparation for a gathering",
+      "fellowship-food-seasoning.webp": "Seasoning the meal",
+      "fellowship-cooking.webp": "Preparing a meal together",
+      "fellowship-oven-prep.webp": "Checking the food in the oven",
+      "fellowship-food-oven.webp": "Shared meal cooking in the oven",
+      "fellowship-served.webp": "Food served for the group"
+    }
   },
   {
     "id": "2026-in-club-leadership-tour",
@@ -429,10 +508,10 @@
     "month": "2026-07",
     "collection": "Milestones",
     "type": "event",
-    "chapterLabel": "THE BEGINNING",
+    "chapterLabel": "THE OPENING CHAPTER",
     "title": "Installation & a new chapter",
-    "summary": "The 2026–2027 leadership installation — the point where this year's service story begins.",
-    "impact": "Add the actual installation date, event photographs, induction moments and any acknowledgements before publishing the final recap.",
+    "summary": "The 2026–2027 executive installation and the start of a new year of service at First Bahamas Branch Toastmasters Club 1600.",
+    "impact": "Photographs document the induction and the beginning of the SAA term. Additional ceremony details and the exact date can be supplied later.",
     "role": "Inducted as SAA",
     "status": "completed",
     "featured": true,
@@ -442,11 +521,20 @@
       "Add installation photos and candid moments"
     ],
     "metrics": [],
-    "images": [],
+    "images": [
+      "https://raw.githubusercontent.com/PearsonLegacyVentures/portfolio-/main/assets/portfolio/installation-gavel.webp",
+      "https://raw.githubusercontent.com/PearsonLegacyVentures/portfolio-/main/assets/portfolio/installation-portrait.webp",
+      "https://raw.githubusercontent.com/PearsonLegacyVentures/portfolio-/main/assets/portfolio/personal-portrait.webp"
+    ],
     "videos": [],
     "links": [],
     "credit": "Club 1600 executive team and members",
-    "placeholderWord": "JULY"
+    "placeholderWord": "JULY",
+    "imageCaptions": {
+      "installation-gavel.webp": "2026–2027 executive installation and gavel ceremony",
+      "installation-portrait.webp": "Portrait from the start of the service year",
+      "personal-portrait.webp": "Club 1600 portrait"
+    }
   },
   {
     "id": "2026-membership-roll-deck",
@@ -501,6 +589,37 @@
     "placeholderWord": "WELCOME"
   },
   {
+    "id": "2026-member-development-recognition",
+    "date": "",
+    "month": "undated",
+    "dateLabel": "Date to confirm",
+    "category": "Speaking & Training",
+    "collection": "Member Development",
+    "type": "event",
+    "chapterLabel": "MEMBER DEVELOPMENT",
+    "title": "Recognition & Development",
+    "role": "Participated",
+    "status": "completed",
+    "featured": false,
+    "summary": "A certificate presentation reflecting the recognition and encouragement that are part of Club 1600's development culture.",
+    "impact": "Photographic record of an appreciation certificate presentation. Exact award details and date await confirmation.",
+    "highlights": [
+      "Recognition of member contributions",
+      "Appreciation and development"
+    ],
+    "metrics": [],
+    "images": [
+      "https://raw.githubusercontent.com/PearsonLegacyVentures/portfolio-/main/assets/portfolio/club-member-recognition.webp"
+    ],
+    "videos": [],
+    "links": [],
+    "credit": "Participating members and the organisers of the recognition occasion",
+    "placeholderWord": "GROW",
+    "imageCaptions": {
+      "club-member-recognition.webp": "Certificate of appreciation presentation"
+    }
+  },
+  {
     "id": "2026-lab-photo-journal",
     "date": "",
     "month": "undated",
@@ -525,5 +644,42 @@
     "links": [],
     "credit": "Dedicated to all facilitators and participating members",
     "placeholderWord": "LAB"
+  },
+  {
+    "id": "2026-dya-youth-leadership",
+    "date": "",
+    "month": "2026-07",
+    "dateLabel": "Summer 2026 · exact date to add",
+    "category": "Community Service",
+    "collection": "Member Development",
+    "type": "event",
+    "chapterLabel": "YOUTH LEADERSHIP",
+    "title": "Youth Leadership Programme — Dynamic Youth in Action",
+    "role": "Speaker & facilitator",
+    "status": "completed",
+    "featured": true,
+    "summary": "Worked with Dynamic Youth in Action to introduce young people to entrepreneurship, recognizing their skills and presenting ideas with confidence.",
+    "impact": "The sessions encouraged participants to identify their abilities, turn a real problem into a possible business, and present a concise pitch. Exact programme dates and participant count can be added.",
+    "highlights": [
+      "Entrepreneurship through everyday skills",
+      "Identifying customers and the problem to solve",
+      "Structured three-minute group pitch exercises",
+      "Encouraging young speakers to communicate their ideas"
+    ],
+    "metrics": [],
+    "images": [
+      "https://raw.githubusercontent.com/PearsonLegacyVentures/portfolio-/main/assets/portfolio/youth-leadership-group.webp",
+      "https://raw.githubusercontent.com/PearsonLegacyVentures/portfolio-/main/assets/portfolio/youth-leadership-five.webp",
+      "https://raw.githubusercontent.com/PearsonLegacyVentures/portfolio-/main/assets/portfolio/youth-entrepreneurship-classroom.webp"
+    ],
+    "videos": [],
+    "links": [],
+    "credit": "Dynamic Youth in Action organisers, facilitators and young participants",
+    "placeholderWord": "YOUTH",
+    "imageCaptions": {
+      "youth-leadership-group.webp": "Dynamic Youth in Action group photo",
+      "youth-leadership-five.webp": "With members of Dynamic Youth in Action",
+      "youth-entrepreneurship-classroom.webp": "A youth participant during the entrepreneurship workshop"
+    }
   }
 ]
