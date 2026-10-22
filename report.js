@@ -7,7 +7,7 @@ function photoBlocks(e){
  const photos=(e.images||[]).map(safe).filter(Boolean);
  const before=safe(e.beforeAfter?.before||""),after=safe(e.beforeAfter?.after||"");
  const all=before||after?[...new Set([...photos,before,after].filter(Boolean))]:photos;
- return all.length?`<div class="report-gallery">${all.map((s,i)=>`<figure><img src="${esc(s)}" alt="${esc(e.title)} · image ${i+1}"><figcaption>${esc(i===all.indexOf(before)&&before?"BEFORE":i===all.indexOf(after)&&after?"AFTER":"PHOTO "+(i+1))}</figcaption></figure>`).join("")}</div>`:"";
+ return all.length?`<div class="report-gallery">${all.map((s,i)=>`<figure><img src="${esc(s)}" alt="${esc(e.title)} · image ${i+1}"><figcaption>${esc(i===all.indexOf(before)&&before?"BEFORE":i===all.indexOf(after)&&after?"AFTER":e.imageCaptions?.[s.split("/").pop()]||"PHOTO "+(i+1))}</figcaption></figure>`).join("")}</div>`:"";
 }
 function entryHTML(e){
  const status={completed:"Completed",active:"In motion",planning:"Planned / pending"}[e.status]||e.status;

@@ -7,7 +7,7 @@ A visual, chronological SAA portfolio for the First Bahamas Branch of Toastmaste
 ## What is on the site
 
 - An editorial front page styled to match the existing `club1600.org` website — Montserrat/Source Sans 3, Toastmasters blue, maroon, white and yellow
-- Eight opening **story chapters**: installation, meeting room, Neil Percentie Back2School, new member orientation, In-Club Leadership Tour, monthly Labs, Q1 social and OPM meeting
+- Ten opening **story chapters** including youth leadership and informal member fellowship: installation, meeting room, Neil Percentie Back2School, new member orientation, In-Club Leadership Tour, monthly Labs, Q1 social and OPM meeting
 - A clickable **July 2026–June 2027** month-by-month roadmap
 - A growing photo journal of **meeting room setups and atmosphere**
 - The Office of the Prime Minister **before/after room** comparison, with photo slots
@@ -85,3 +85,7 @@ The portfolio distinguishes contributions from group accomplishments and preserv
 - `.github/ISSUE_TEMPLATE/portfolio-media.yml` — quick upload form
 - `scripts/sync_issue.py` — preserves entries and attaches new media
 - `.github/workflows/` — publishing/deployment
+
+## Photo and video archive update · October 2026
+
+Twenty-six web-optimized photographs and one 37-second Dirty Diana cocktail video are committed under `assets/portfolio/`. They appear in Installation, Meeting Room & Hospitality, Dynamic Youth in Action, 1600 Degreez Q1 Social, Member Fellowship and Recognition. Image captions are stored per entry in `data/entries.json` using `imageCaptions`; dates and attendance figures not yet confirmed remain marked for later verification.

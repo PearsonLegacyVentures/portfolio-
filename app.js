@@ -4,7 +4,7 @@ const SOURCE="https://raw.githubusercontent.com/PearsonLegacyVentures/club1600.o
 const FORM="https://github.com/PearsonLegacyVentures/portfolio-/issues/new?template=portfolio-entry.yml";
 const MEDIA_FORM="https://github.com/PearsonLegacyVentures/portfolio-/issues/new?template=portfolio-media.yml";
 const YEAR_MONTHS=[["2026-07","JUL","2026"],["2026-08","AUG","2026"],["2026-09","SEP","2026"],["2026-10","OCT","2026"],["2026-11","NOV","2026"],["2026-12","DEC","2026"],["2027-01","JAN","2027"],["2027-02","FEB","2027"],["2027-03","MAR","2027"],["2027-04","APR","2027"],["2027-05","MAY","2027"],["2027-06","JUN","2027"]];
-const CHAPTERS=["2026-installation","2026-operations-and-reception","2026-neil-percentie-jamboree","2026-new-member-orientation","2026-in-club-leadership-tour","2026-lab-photo-journal","2026-1600-degreez","2026-opm-meeting-logistics"];
+const CHAPTERS=["2026-installation","2026-operations-and-reception","2026-dya-youth-leadership","2026-neil-percentie-jamboree","2026-new-member-orientation","2026-in-club-leadership-tour","2026-lab-photo-journal","2026-1600-degreez","2026-opm-meeting-logistics","2026-member-fellowship"];
 const BUILDS=["2026-club1600-site","2026-membership-roll-deck","2026-saa-expense-tracking","2026-meeting-attire-standard","2026-d47-conference-trip","2026-saa-initiatives-roadmap"];
 const STATUS={completed:"Completed",active:"In progress",planning:"In planning"};
 const $=(id)=>document.getElementById(id);
@@ -15,6 +15,7 @@ const friendlyDate=(e)=>e.dateLabel||(e.date?new Date(e.date+"T12:00:00Z").toLoc
 const getMonth=(e)=>e.month||(e.date?e.date.slice(0,7):"undated");
 const photo=(e)=>Array.isArray(e.images)?e.images.map(safe).find(Boolean)||"": "";
 const photos=(e)=>Array.isArray(e.images)?e.images.map(safe).filter(Boolean):[];
+const imageCaption=(e,src)=>e.imageCaptions?.[String(src).split("/").pop()]||"";
 const videoLinks=(e)=>(e.videos||[]).map(v=>typeof v==="string"?{url:v,label:"Watch video"}:v).filter(v=>safe(v.url));
 const normalize=(e)=>({...e,images:e.images||[],videos:e.videos||[],highlights:e.highlights||[],metrics:e.metrics||[],links:e.links||[],beforeAfter:e.beforeAfter||{}});
 let entries=[], selectedMonth="2026-10";
@@ -25,7 +26,7 @@ function renderChapters(){
   $("chapter-grid").innerHTML=CHAPTERS.map((id,n)=>{
     const e=find(id);if(!e)return "";
     return `<button type="button" class="chapter" data-entry="${esc(e.id)}" aria-label="View chapter: ${esc(e.title)}">
-    ${bg(e)}<div class="chapter-shade"></div><span class="chapter-number">${String(n+1).padStart(2,"0")} / 08</span>
+    ${bg(e)}<div class="chapter-shade"></div><span class="chapter-number">${String(n+1).padStart(2,"0")} / ${String(CHAPTERS.length).padStart(2,"0")}</span>
     <span class="chapter-label">${esc(e.chapterLabel||e.category)} · ${esc(friendlyDate(e))}</span>
     <h3>${esc(e.title)}</h3><p>${esc(e.summary)}</p>
     <span class="chapter-pill">${photos(e).length?`${photos(e).length} ${photos(e).length===1?"PHOTO":"PHOTOS"}`:"PHOTOS TO ADD"} ${videoLinks(e).length?"· VIDEO":""} ↗</span></button>`;
@@ -111,7 +112,7 @@ function openEntry(id){
  const main=photo(e),imgs=photos(e),videos=videoLinks(e);
  const metrics=e.metrics.length?`<div class="dialog-metrics">${e.metrics.map(x=>`<div><b>${esc(x.value)}</b><span>${esc(x.label)}</span></div>`).join("")}</div>`:"";
  const high=e.highlights.length?`<h3>What was done</h3><ul>${e.highlights.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:"";
- const gallery=imgs.length?`<h3>Photo record ${imgs.length===1?"":"("+imgs.length+")"}</h3><div class="dialog-photos">${imgs.map((src,i)=>`<figure><a href="${esc(src)}" target="_blank" rel="noopener noreferrer" aria-label="Open full-size photo ${i+1}"><img src="${esc(src)}" alt="${esc(e.title)} photo ${i+1}" loading="lazy"></a><figcaption>IMAGE ${String(i+1).padStart(2,"0")} · OPEN FULL SIZE ↗</figcaption></figure>`).join("")}</div>`:`<h3>Photo record</h3><p>Photo gallery awaiting original images. Add them through the entry form when ready.</p>`;
+ const gallery=imgs.length?`<h3>Photo record ${imgs.length===1?"":"("+imgs.length+")"}</h3><div class="dialog-photos">${imgs.map((src,i)=>`<figure><a href="${esc(src)}" target="_blank" rel="noopener noreferrer" aria-label="Open full-size photo ${i+1}"><img src="${esc(src)}" alt="${esc(imageCaption(e,src)||e.title+" photo "+(i+1))}" loading="lazy"></a><figcaption>${esc(imageCaption(e,src)||"IMAGE "+String(i+1).padStart(2,"0"))} · OPEN FULL SIZE ↗</figcaption></figure>`).join("")}</div>`:`<h3>Photo record</h3><p>Photo gallery awaiting original images. Add them through the entry form when ready.</p>`;
  const clips=videos.length?`<h3>Videos</h3><div class="dialog-videos">${videos.map(mediaElement).join("")}</div>`:"";
  const bef=safe(e.beforeAfter?.before),aft=safe(e.beforeAfter?.after);
  const compare=(bef||aft||e.type==="transformation")?`<h3>Before &amp; after</h3><div class="compare-images">${["Before","After"].map((label,i)=>`<div class="compare-panel">${[bef,aft][i]?`<img src="${esc([bef,aft][i])}" alt="${label}: ${esc(e.title)}">`:`<div class="empty-photo"><div>+<br>${label.toUpperCase()} IMAGE TO ADD</div></div>`}<span class="compare-caption">${label.toUpperCase()}</span></div>`).join("")}</div>`:"";
