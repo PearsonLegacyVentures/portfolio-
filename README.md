@@ -14,7 +14,7 @@ A visual, chronological SAA portfolio for the First Bahamas Branch of Toastmaste
 - **Lab photos by month**, populated by new Lab entries
 - A **Build Log** for `club1600.org`, the membership roll-call deck, SAA financial tracker and more
 - A complete searchable archive, with photos, videos, data and acknowledgements in each story
-- A print-friendly layout for saving an initial PDF-style recap
+- A fully generated **annual report** at `report.html`, with month chapters, figures, linked evidence and photo galleries, ready for **Print → Save as PDF**
 
 ## The easiest way to update
 
@@ -79,6 +79,7 @@ The portfolio distinguishes contributions from group accomplishments and preserv
 - `index.html` — main layout
 - `styles.css` — visual design
 - `app.js` — calendar, archive, galleries and story display
+- `report.html`, `report.css`, `report.js` — consistent printable monthly PDF report
 - `data/entries.json` — all stories and assets
 - `.github/ISSUE_TEMPLATE/portfolio-entry.yml` — new story form
 - `.github/ISSUE_TEMPLATE/portfolio-media.yml` — quick upload form
