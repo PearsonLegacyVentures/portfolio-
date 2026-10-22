@@ -132,7 +132,7 @@ function setup(){
  $("search").addEventListener("input",renderArchive);
  $("status").addEventListener("change",renderArchive);
  $("clear-filters").addEventListener("click",()=>{$("search").value="";$("status").value="all";renderArchive();});
- $("print-page").addEventListener("click",()=>window.print());
+ $("print-page").addEventListener("click",()=>{window.location.href="./report.html";});
 }
 async function init(){
  setup();
