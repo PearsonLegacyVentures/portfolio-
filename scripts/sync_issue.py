@@ -84,6 +84,29 @@ def main():
     owner = os.environ.get("GITHUB_REPOSITORY_OWNER", "")
     if issue.get("user", {}).get("login", "").lower() != owner.lower():
         raise SystemExit("Ignoring issues that are not submitted by the repository owner.")
+    if issue.get("title", "").startswith("[Media]"):
+        vals = sections(issue.get("body", ""))
+        target_id = vals.get("Existing Entry ID", "")
+        records = json.loads(DEST.read_text(encoding="utf-8"))
+        target = next((x for x in records if x.get("id") == target_id), None)
+        if target is None:
+            raise SystemExit("Entry ID not found: " + target_id)
+        target.setdefault("images", [])
+        target.setdefault("videos", [])
+        for url in extract_photos(vals.get("More photos", "")):
+            if url not in target["images"]:
+                target["images"].append(url)
+        for url in extract_photos(vals.get("Video links", "")):
+            if not any((v.get("url") if isinstance(v, dict) else v) == url for v in target["videos"]):
+                target["videos"].append({"url": url, "label": "Event video"})
+        for key, name in (("before", "Before photo"), ("after", "After photo")):
+            found = extract_photos(vals.get(name, ""))
+            if found:
+                target.setdefault("beforeAfter", {})[key] = found[0]
+        DEST.write_text(json.dumps(records, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        print("Media added to " + target_id)
+        return
+
     title = re.sub(r"^\[Portfolio\]\s*", "", issue.get("title", "")).strip()
     values = sections(issue.get("body", ""))
     try:
@@ -113,6 +136,7 @@ def main():
         "highlights": lines(values.get("Highlights (one per line)", ""))[:20],
         "metrics": pairs(values.get("Metrics (one per line: label | value)", "")),
         "images": extract_photos(values.get("Photos (paste links or drag images here)", "")),
+        "videos": [{"label": "Event video", "url": url} for url in extract_photos(values.get("Video URLs (one per line)", ""))],
         "links": pairs(values.get("Evidence links (label | URL)", ""), key="link"),
         "credit": values.get("Recognition / collaborators", "")[:1600],
         "featured": values.get("Featured story?", "") == "Yes",

@@ -90,6 +90,13 @@ body:
     validations:
       required: false
   - type: textarea
+    id: video-urls
+    attributes:
+      label: "Video URLs (one per line)"
+      description: "Paste YouTube, Streamable or direct video URLs."
+    validations:
+      required: false
+  - type: textarea
     id: evidence
     attributes:
       label: "Evidence links (label | URL)"

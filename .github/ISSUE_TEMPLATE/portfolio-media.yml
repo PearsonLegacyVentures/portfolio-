@@ -1,0 +1,34 @@
+name: "Add photos and videos"
+description: "Update a portfolio chapter without touching its description or date."
+title: "[Media] "
+body:
+  - type: markdown
+    attributes:
+      value: "Paste or drag images in the fields below. Photo uploads are publicly viewable. To find the entry ID, open a story and look at its footer."
+  - type: input
+    id: target
+    attributes:
+      label: "Existing Entry ID"
+      placeholder: "2026-neil-percentie-jamboree"
+    validations:
+      required: true
+  - type: textarea
+    id: photos
+    attributes:
+      label: "More photos"
+      description: "Drag images here or paste direct image URLs."
+  - type: textarea
+    id: videos
+    attributes:
+      label: "Video links"
+      description: "YouTube, Streamable, or directly hosted videos."
+  - type: textarea
+    id: before
+    attributes:
+      label: "Before photo"
+      description: "For a room transformation, upload the original room view."
+  - type: textarea
+    id: after
+    attributes:
+      label: "After photo"
+      description: "For a room transformation, upload the room after setup."

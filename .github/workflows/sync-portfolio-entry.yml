@@ -10,7 +10,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   sync:
-    if: github.event.issue.user.login == github.repository_owner && startsWith(github.event.issue.title, '[Portfolio]')
+    if: github.event.issue.user.login == github.repository_owner && (startsWith(github.event.issue.title, '[Portfolio]') || startsWith(github.event.issue.title, '[Media]'))
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
