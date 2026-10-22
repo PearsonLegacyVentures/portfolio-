@@ -1,90 +1,122 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#102b49">
-  <meta name="description" content="A Year in Motion — a curated record of Amar Pearson's 2026–2027 service and initiatives as Sergeant-at-Arms of First Bahamas Branch Toastmasters Club 1600.">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#004165">
+  <meta name="description" content="A Year in Motion: Amar Pearson's visual record of service, meetings, events, initiatives and creative work during the 2026–2027 Club 1600 term.">
   <meta property="og:title" content="A Year in Motion | Club 1600">
-  <meta property="og:description" content="The people, projects and progress behind the scenes of Club 1600.">
+  <meta property="og:description" content="From the room to the community — a living visual archive of a Toastmasters year in motion.">
   <meta property="og:type" content="website">
   <link rel="icon" type="image/svg+xml" href="./favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Instrument+Serif:ital@0;1&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles.css">
   <script src="./app.js" defer></script>
-  <title>A Year in Motion — Club 1600</title>
+  <title>Club 1600 — A Year in Motion</title>
 </head>
 <body>
-  <div class="topline"><span>FIRST BAHAMAS BRANCH</span><span>2026—2027 SERVICE JOURNAL</span></div>
-  <header class="site-header" id="top">
-    <a class="brand" href="#top" aria-label="Club 1600 — back to top"><strong>CLUB <span>1600</span></strong><small>THE YEAR IN MOTION</small></a>
-    <nav class="nav-links" aria-label="Primary">
-      <a href="#featured">Highlights</a>
-      <a href="#archive">The archive</a>
-      <a href="#timeline">Timeline</a>
-      <a href="#about">About</a>
-    </nav>
-    <a class="nav-add" href="https://github.com/PearsonLegacyVentures/portfolio-/issues/new?template=portfolio-entry.yml" target="_blank" rel="noopener noreferrer">+ Add entry <span aria-hidden="true">↗</span></a>
-  </header>
-  <main>
-    <section class="hero">
-      <div class="hero-photo" role="img" aria-label="Club 1600 executive team" style="background-image:linear-gradient(90deg,rgba(10,33,58,.98) 0%,rgba(10,33,58,.90) 36%,rgba(10,33,58,.40) 100%),url('https://raw.githubusercontent.com/PearsonLegacyVentures/club1600.org/main/assets/exec-photo.webp')"></div>
-      <div class="hero-content wrap">
-        <p class="eyebrow gold"><span class="small-rule"></span> SERVICE • FELLOWSHIP • IMPACT</p>
-        <h1>A YEAR<br><em>in motion.</em></h1>
-        <p class="hero-intro">A record of the work, ideas and moments that move Club 1600 forward — one initiative at a time.</p>
-        <div class="hero-actions"><a class="button button-gold" href="#archive">Explore the work <span aria-hidden="true">↗</span></a><a class="button button-outline" href="#about">The story behind it</a></div>
-        <div class="hero-byline"><span class="byline-mark">AP</span><span><strong>AMAR PEARSON</strong><small>SERGEANT-AT-ARMS · 2026–2027</small></span></div>
+<a class="skip-link" href="#main">Skip to the portfolio</a>
+<header class="nav">
+  <a class="wordmark" href="#home" aria-label="Club 1600 portfolio home"><strong>CLUB <span>1600</span></strong><small>FIRST BAHAMAS BRANCH</small></a>
+  <nav class="nav-menu" aria-label="Main navigation">
+    <a href="#story">The story</a>
+    <a href="#year">Year roadmap</a>
+    <a href="#room">The room</a>
+    <a href="#labs">Lab journal</a>
+    <a href="#builds">Build log</a>
+  </nav>
+  <a class="header-action" href="https://github.com/PearsonLegacyVentures/portfolio-/issues/new?template=portfolio-entry.yml" target="_blank" rel="noopener noreferrer"><span>+</span> ADD TO THE RECORD</a>
+</header>
+
+<main id="main">
+  <section id="home" class="hero">
+    <div class="hero-image"><img src="https://raw.githubusercontent.com/PearsonLegacyVentures/club1600.org/main/assets/exec-photo.webp" alt="Club 1600 executive team" fetchpriority="high"></div>
+    <div class="hero-shade"></div>
+    <div class="hero-inner container">
+      <span class="eyebrow light"><span class="pulse-dot"></span> SAA PORTFOLIO · 2026–2027</span>
+      <h1>THE YEAR<br><span>IN <em>MOTION.</em></span></h1>
+      <p>Everything behind the meetings. The rooms we prepared. The events we delivered. The people we brought together. The ideas we built.</p>
+      <div class="hero-actions"><a class="btn primary" href="#story">SEE THE STORY <span>↗</span></a><a class="btn secondary" href="#year">EXPLORE THE YEAR</a></div>
+      <div class="hero-credit"><span class="credit-square">AP</span><div><b>AMAR PEARSON</b><small>SERGEANT-AT-ARMS · CLUB 1600</small></div></div>
+    </div>
+    <div class="hero-folio"><span>2026</span><span class="hero-rule"></span><span>2027</span></div>
+  </section>
+
+  <section class="intro-section container">
+    <p class="section-kicker">A LIVING PORTFOLIO / FIRST BAHAMAS BRANCH</p>
+    <div class="intro-grid">
+      <h2>NOT JUST WHAT<br>HAPPENED.<br><em>WHAT IT TOOK.</em></h2>
+      <div class="intro-copy"><p>This is the behind-the-scenes record of the 2026–2027 Toastmasters year — installation, meeting environments, community service, member development, fellowship and the projects built along the way.</p><p>Every chapter is designed for real photographs, real outcomes and proper recognition of the people who made it happen.</p><div class="intro-small">THE WORK • THE PEOPLE • THE PROOF</div></div>
+    </div>
+  </section>
+
+  <section class="story-section" id="story">
+    <div class="container">
+      <div class="section-head"><div><p class="section-kicker">01 / START HERE</p><h2>THE YEAR, <em>CHAPTER BY CHAPTER.</em></h2></div><p class="section-description">A guided visual story. Select any chapter to open its photo record, videos, contributions and results.</p></div>
+      <div id="chapter-grid" class="chapter-grid" aria-live="polite"></div>
+    </div>
+  </section>
+
+  <section id="year" class="roadmap-section">
+    <div class="container">
+      <div class="section-head"><div><p class="section-kicker gold">02 / THE 2026–2027 TERM</p><h2>THE <em>YEAR ROADMAP.</em></h2></div><p class="section-description light-description">A full 12-month view, July through June. Choose a month to see what was documented — and where photos still need to be added.</p></div>
+      <div class="roadmap-topline"><span>YEAR 01 <b>2026</b></span><span>YEAR 02 <b>2027</b></span></div>
+      <div class="month-rail" id="month-rail" aria-label="Select a month in the Toastmasters year"></div>
+      <div class="month-detail" id="month-detail" aria-live="polite"></div>
+      <div class="roadmap-note">Dates not yet confirmed are preserved separately rather than assigned to a made-up month. <button type="button" data-month="undated">View unplaced chapters ↗</button></div>
+    </div>
+  </section>
+
+  <section class="room-section container" id="room">
+    <div class="section-head"><div><p class="section-kicker">03 / BEFORE THE GAVEL</p><h2>THE ROOM <em>MATTERS.</em></h2></div><p class="section-description">Table layouts, chairs, lighting, hospitality and the feeling members walk into each Thursday. This is where the weekly work becomes visible.</p></div>
+    <div class="room-layout">
+      <button type="button" class="room-photo-large" id="room-main" data-entry="2026-operations-and-reception" aria-label="Open the meeting-room photo journal">
+        <img src="https://raw.githubusercontent.com/PearsonLegacyVentures/club1600.org/main/assets/meeting-room.webp" alt="Club 1600 meeting room" loading="lazy">
+        <span>THE MEETING ENVIRONMENT <b>EXPLORE THE RECORD ↗</b></span>
+      </button>
+      <div class="room-stack">
+        <button type="button" class="room-photo-secondary" data-entry="2026-operations-and-reception"><img src="https://raw.githubusercontent.com/PearsonLegacyVentures/club1600.org/main/assets/meeting-moments.webp" alt="Club 1600 meeting atmosphere" loading="lazy"><span>GENERAL MEETING ATMOSPHERE ↗</span></button>
+        <button type="button" class="room-photo-placeholder" data-entry="2026-operations-and-reception"><span class="placeholder-plus">+</span><strong>THE DETAILS</strong><span>Add table layouts, guest seating, hospitality, before-and-after setups and your favorite Thursday-night photos.</span><b>OPEN THE ROOM JOURNAL ↗</b></button>
       </div>
-      <div class="hero-side-note">FIRST BAHAMAS BRANCH OF TOASTMASTERS</div>
-    </section>
+    </div>
+    <div class="room-footnote"><span>THE ROOM IS PART OF THE EXPERIENCE.</span><a href="https://github.com/PearsonLegacyVentures/portfolio-/issues/new?template=portfolio-entry.yml" target="_blank" rel="noopener noreferrer">ADD ROOM PHOTOS ↗</a></div>
+  </section>
 
-    <div class="ticker"><div class="wrap ticker-inner"><span>BEHIND EVERY GREAT MEETING IS WORK YOU DON'T SEE.</span><span class="ticker-star">✳</span><span>THIS IS THE RECORD.</span></div></div>
+  <section class="transformation-section" id="transformations">
+    <div class="container">
+      <div class="section-head"><div><p class="section-kicker gold">04 / THE TRANSFORMATION</p><h2>BEFORE. <em>AFTER.</em></h2></div><p class="section-description light-description">The Office of the Prime Minister meeting is reserved for a side-by-side transformation of the actual room. Add your original arrival and meeting-ready photos.</p></div>
+      <div id="comparison-slot" class="comparison-slot"></div>
+    </div>
+  </section>
 
-    <section class="section wrap" id="featured">
-      <div class="section-heading"><div><p class="eyebrow">01 / THE HIGHLIGHTS</p><h2>More than <em>the meeting.</em></h2></div><p class="section-aside">The initiatives, experiences and service that deserve a place in the story.</p></div>
-      <div id="featured-grid" class="featured-grid" aria-live="polite"></div>
-    </section>
+  <section class="labs-section container" id="labs">
+    <div class="section-head"><div><p class="section-kicker">05 / MONTHLY PHOTO DIARIES</p><h2>THE <em>LAB JOURNAL.</em></h2></div><p class="section-description">Instead of one giant gallery, each month gets its own collection. Add the photographs, lab topic and moments that defined the session.</p></div>
+    <div id="lab-grid" class="lab-grid"></div>
+  </section>
 
-    <section class="impact-band">
-      <div class="wrap impact-layout">
-        <div><p class="eyebrow gold">A MOMENT WORTH MEASURING</p><h2>The work<br><em>made visible.</em></h2><p>Verified outcomes from the 15th Annual Neil Percentie Back2School Jamboree — a collective Club 1600 community-service effort.</p></div>
-        <div class="impact-numbers">
-          <div><strong>200</strong><span>Student packages distributed</span></div>
-          <div><strong>150+</strong><span>Estimated event attendees</span></div>
-          <div><strong>1,500+</strong><span>Additional school items</span></div>
-          <div><strong>50</strong><span>Teacher packages prepared</span></div>
-        </div>
-      </div>
-    </section>
+  <section class="builds-section" id="builds">
+    <div class="container">
+      <div class="section-head"><div><p class="section-kicker">06 / IDEAS MADE REAL</p><h2>THE <em>BUILD LOG.</em></h2></div><p class="section-description">Websites, decks, graphics, systems and operational tools. Each build gets its own space for screenshots, links, progress and impact.</p></div>
+      <div id="build-grid" class="build-grid"></div>
+    </div>
+  </section>
 
-    <section class="section wrap" id="archive">
-      <div class="section-heading archive-title"><div><p class="eyebrow">02 / THE WORK</p><h2>The <em>activity archive.</em></h2></div><p class="section-aside">A living record — updated as new contributions, photos and outcomes are documented.</p></div>
-      <div class="archive-toolbar">
-        <label class="search-wrap"><span aria-hidden="true">⌕</span><span class="sr-only">Search activities</span><input id="search" type="search" placeholder="Search initiatives, outcomes, dates…" autocomplete="off"></label>
-        <label class="select-wrap"><span class="sr-only">Filter by reporting quarter</span><select id="quarter"><option value="all">All quarters</option><option value="Q1">Q1 · Jul–Sep</option><option value="Q2">Q2 · Oct–Dec</option><option value="Q3">Q3 · Jan–Mar</option><option value="Q4">Q4 · Apr–Jun</option></select></label>
-        <label class="select-wrap"><span class="sr-only">Filter by status</span><select id="status"><option value="all">All statuses</option><option value="completed">Completed</option><option value="active">In motion</option><option value="planning">On the horizon</option></select></label>
-      </div>
-      <div class="category-bar" id="categories" role="group" aria-label="Filter by type of initiative"></div>
-      <div class="archive-meta"><span id="archive-count">Loading archive…</span><button class="text-button" id="clear-filters" type="button">Clear filters ↗</button></div>
-      <div id="entry-grid" class="entry-grid" aria-live="polite"></div>
-      <div id="empty-state" class="empty-state" hidden><h3>No entries match.</h3><p>Try clearing the filters or searching for another term.</p></div>
-    </section>
+  <section class="archive-section container" id="archive">
+    <div class="section-head"><div><p class="section-kicker">07 / THE ENTIRE RECORD</p><h2>EVERY <em>ENTRY.</em></h2></div><p class="section-description">The permanent index of events, deliverables and initiatives. Search, filter and open the record you need.</p></div>
+    <div class="filters"><label class="search-field"><span>⌕</span><span class="sr-only">Search the archive</span><input id="search" type="search" placeholder="Search projects, events, outcomes…" autocomplete="off"></label><label><span class="sr-only">Filter by status</span><select id="status"><option value="all">All statuses</option><option value="completed">Completed</option><option value="active">In motion</option><option value="planning">Planned / pending</option></select></label><button class="filter-reset" id="clear-filters" type="button">RESET ↺</button></div>
+    <div class="archive-meta"><span id="archive-count">Loading the record…</span><span>NEWEST FIRST</span></div>
+    <div class="archive-grid" id="archive-grid"></div>
+    <div class="empty-state" id="empty-state" hidden>No matches. Try another search or reset the filters.</div>
+  </section>
 
-    <section class="timeline-section" id="timeline">
-      <div class="wrap timeline-layout"><div><p class="eyebrow gold">03 / THE TIMELINE</p><h2>A year<br><em>in chapters.</em></h2><p>Follow the initiatives from the start of the Toastmasters year.</p></div><div id="timeline-list" class="timeline-list" aria-label="Chronological activity timeline"></div></div>
-    </section>
+  <section class="closing-section">
+    <div class="container closing-inner"><div><p class="section-kicker gold">THE PORTFOLIO DOESN'T STOP HERE</p><h2>KEEP <em>BUILDING</em><br>THE RECORD.</h2><p>Upload the original photos, videos, before-and-after shots or a fresh accomplishment. The layout stays consistent as the story grows.</p></div><div class="closing-actions"><a class="btn primary" href="https://github.com/PearsonLegacyVentures/portfolio-/issues/new?template=portfolio-entry.yml" target="_blank" rel="noopener noreferrer">ADD A STORY <span>↗</span></a><button id="print-page" class="btn secondary" type="button">SAVE AS PDF ↗</button></div></div>
+  </section>
+</main>
+<footer><div class="container footer-inner"><div class="footer-brand"><b>CLUB 1600</b><small>A YEAR IN MOTION · 2026–2027</small></div><p>A personal service portfolio. Credit is given to collaborators; pending details are identified. Not an official Toastmasters International publication.</p><a href="#home">BACK TO TOP ↑</a></div></footer>
 
-    <section class="section wrap about" id="about">
-      <div class="about-image"><img src="https://raw.githubusercontent.com/PearsonLegacyVentures/club1600.org/main/assets/amar-cutout.webp" alt="Amar Pearson, Club 1600 Sergeant-at-Arms" loading="lazy"></div>
-      <div class="about-copy"><p class="eyebrow">04 / THE PURPOSE</p><h2>Leadership shows up<br><em>in the details.</em></h2><p>This is a personal record of service during the 2026–2027 Club 1600 term — from welcoming members and improving club operations to coordinating community initiatives and bringing people together beyond weekly meetings.</p><p>Each entry distinguishes work led, coordinated, created or supported. Because meaningful progress rarely happens alone.</p><p class="about-signature">Amar Pearson <span>Sergeant-at-Arms · Club 1600</span></p></div>
-    </section>
-
-    <section class="closing-cta"><div class="wrap cta-layout"><div><p class="eyebrow gold">KEEP THE RECORD MOVING</p><h2>Something happened?<br><em>Put it in the archive.</em></h2><p>New initiative, improvement, event photo or impact number: add it in minutes without touching the website code.</p></div><div class="cta-buttons"><a class="button button-gold" href="https://github.com/PearsonLegacyVentures/portfolio-/issues/new?template=portfolio-entry.yml" target="_blank" rel="noopener noreferrer">Add an activity ↗</a><button class="button button-outline" id="print-page" type="button">Save / print PDF ↗</button></div></div></section>
-  </main>
-  <footer class="site-footer"><div class="wrap footer-inner"><div><strong>CLUB 1600</strong><small>A YEAR IN MOTION · 2026–2027</small></div><p>Documenting the work. Recognizing the people. Preserving the impact.</p><a href="#top">BACK TO TOP ↑</a></div><div class="wrap footer-note">An independently maintained Sergeant-at-Arms portfolio. Statuses and impact details are updated as verified; it is not an official Toastmasters International publication.</div></footer>
-  <dialog id="entry-dialog" class="entry-dialog" aria-labelledby="dialog-title"><button id="dialog-close" class="dialog-close" type="button" aria-label="Close details">×</button><div id="dialog-body"></div></dialog>
+<dialog id="entry-dialog" aria-labelledby="dialog-title" class="entry-dialog"><button type="button" class="dialog-close" id="dialog-close" aria-label="Close story">×</button><div id="dialog-body"></div></dialog>
 </body>
 </html>
